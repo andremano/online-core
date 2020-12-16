@@ -1,0 +1,1104 @@
+
+
+.. |ltb| image:: _static/img/ltb.png
+   :width: 1.3em
+
+.. |previewPointer| image:: _static/img/class-preview-pointer.png
+   :width: 1.5em
+
+.. |runSCP| image:: _static/img/run-scp.png
+   :width: 4em
+
+.. |25dSymbol| image:: _static/qgis-common/renderer25dSymbol.png
+   :width: 1.5em
+.. |312| replace:: ``NEW in 3.12``
+.. |314| replace:: ``NEW in 3.14``
+.. |316| replace:: ``NEW in 3.16``
+.. |3d| image:: _static/qgis-common/3d.png
+   :width: 1.5em
+.. |3dNavigation| image:: _static/qgis-common/mAction3DNavigation.png
+   :width: 1.3em
+.. |3dconfigure| image:: _static/qgis-common/mIconProperties.png
+   :width: 1.3em
+.. |CURRENT| replace:: 3.10
+.. |FA| replace:: Follow Along:
+.. |FR| replace:: Further Reading
+.. |IC| replace:: In Conclusion
+.. |LS| replace:: Lesson:
+.. |MOD| replace:: Module:
+.. |QG| replace:: QGIS
+.. |RF| replace:: Results For
+.. |TY| replace:: Try Yourself
+.. |WN| replace:: What's Next?
+.. |action| image:: _static/qgis-common/action.png
+   :width: 2em
+.. |actionRun| image:: _static/qgis-common/mAction.png
+   :width: 1.5em
+.. |add3DMap| image:: _static/qgis-common/mActionAdd3DMap.png
+   :width: 1.5em
+.. |addAfsLayer| image:: _static/qgis-common/mActionAddAfsLayer.png
+   :width: 1.5em
+.. |addAllToOverview| image:: _static/qgis-common/mActionAddAllToOverview.png
+   :width: 1.5em
+.. |addAmsLayer| image:: _static/qgis-common/mActionAddAmsLayer.png
+   :width: 1.5em
+.. |addArrow| image:: _static/qgis-common/mActionAddArrow.png
+   :width: 1.5em
+.. |addBasicCircle| image:: _static/qgis-common/mActionAddBasicCircle.png
+   :width: 1.5em
+.. |addBasicRectangle| image:: _static/qgis-common/mActionAddBasicRectangle.png
+   :width: 1.5em
+.. |addBasicShape| image:: _static/qgis-common/mActionAddBasicShape.png
+   :width: 1.5em
+.. |addBasicTriangle| image:: _static/qgis-common/mActionAddBasicTriangle.png
+   :width: 1.5em
+.. |addDb2Layer| image:: _static/qgis-common/mActionAddDb2Layer.png
+   :width: 1.5em
+.. |addDelimitedTextLayer| image:: _static/qgis-common/mActionAddDelimitedTextLayer.png
+   :width: 1.5em
+.. |addExpression| image:: _static/qgis-common/mActionAddExpression.png
+   :width: 1.5em
+.. |addGCPPoint| image:: _static/qgis-common/mActionAddGCPPoint.png
+   :width: 1.5em
+.. |addGrid| image:: _static/qgis-common/add_grid.png
+   :width: 1.5em
+.. |addGroup| image:: _static/qgis-common/mActionAddGroup.png
+   :width: 1.5em
+.. |addHtml| image:: _static/qgis-common/mActionAddHtml.png
+   :width: 1.5em
+.. |addImage| image:: _static/qgis-common/mActionAddImage.png
+   :width: 1.5em
+.. |addLabel| image:: _static/qgis-common/mActionLabel.png
+   :width: 1.5em
+.. |addLayer| image:: _static/qgis-common/mActionAddLayer.png
+   :width: 1.5em
+.. |addLegend| image:: _static/qgis-common/mActionAddLegend.png
+   :width: 1.5em
+.. |addMap| image:: _static/qgis-common/mActionAddMap.png
+   :width: 1.5em
+.. |addMeshLayer| image:: _static/qgis-common/mActionAddMeshLayer.png
+   :width: 1.5em
+.. |addMssqlLayer| image:: _static/qgis-common/mActionAddMssqlLayer.png
+   :width: 1.5em
+.. |addNewImage| image:: _static/qgis-common/mActionAddImage.png
+   :width: 1.5em
+.. |addNodesShape| image:: _static/qgis-common/mActionAddNodesShape.png
+   :width: 1.5em
+.. |addOgrLayer| image:: _static/qgis-common/mActionAddOgrLayer.png
+   :width: 1.5em
+.. |addOracleLayer| image:: _static/qgis-common/mActionAddOracleLayer.png
+   :width: 1.5em
+.. |addPart| image:: _static/qgis-common/mActionAddPart.png
+   :width: 1.5em
+.. |addPolygon| image:: _static/qgis-common/mActionAddPolygon.png
+   :width: 1.5em
+.. |addPolyline| image:: _static/qgis-common/mActionAddPolyline.png
+   :width: 1.5em
+.. |addPostgisLayer| image:: _static/qgis-common/mActionAddPostgisLayer.png
+   :width: 1.5em
+.. |addRasterLayer| image:: _static/qgis-common/mActionAddRasterLayer.png
+   :width: 1.5em
+.. |addRing| image:: _static/qgis-common/mActionAddRing.png
+   :width: 2em
+.. |addScalebar| image:: _static/qgis-common/mActionScaleBar.png
+   :width: 1.5em
+.. |addSpatiaLiteLayer| image:: _static/qgis-common/mActionAddSpatiaLiteLayer.png
+   :width: 1.5em
+.. |addTable| image:: _static/qgis-common/mActionAddTable.png
+   :width: 1.5em
+.. |addToProject| image:: _static/qgis-common/mAddToProject.png
+   :width: 1.5em
+.. |addVectorTileLayer| image:: _static/qgis-common/mActionAddVectorTileLayer.png
+   :width: 1.5em
+.. |addVirtualLayer| image:: _static/qgis-common/mActionAddVirtualLayer.png
+   :width: 1.5em
+.. |addWcsLayer| image:: _static/qgis-common/mActionAddWcsLayer.png
+   :width: 1.5em
+.. |addWfsLayer| image:: _static/qgis-common/mActionAddWfsLayer.png
+   :width: 1.5em
+.. |addWmsLayer| image:: _static/qgis-common/mActionAddWmsLayer.png
+   :width: 1.5em
+.. |addXyzLayer| image:: _static/qgis-common/mActionAddXyzLayer.png
+   :width: 1.5em
+.. |afs| image:: _static/qgis-common/mIconAfs.png
+   :width: 1.5em
+.. |alignBottom|  image:: _static/qgis-common/mActionAlignBottom.png
+   :width: 1.5em
+.. |alignHCenter| image:: _static/qgis-common/mActionAlignHCenter.png
+   :width: 1.5em
+.. |alignLeft| image:: _static/qgis-common/mActionAlignLeft.png
+   :width: 1.5em
+.. |alignRight| image:: _static/qgis-common/mActionAlignRight.png
+   :width: 1.5em
+.. |alignTop| image:: _static/qgis-common/mActionAlignTop.png
+   :width: 1.5em
+.. |alignVCenter| image:: _static/qgis-common/mActionAlignVCenter.png
+   :width: 1.5em
+.. |allEdits| image:: _static/qgis-common/mActionAllEdits.png
+   :width: 1.5em
+.. |ams| image:: _static/qgis-common/mIconAms.png
+   :width: 1.5em
+.. |annotation| image:: _static/qgis-common/mActionAnnotation.png
+   :width: 1.5em
+.. |arrowDown| image:: _static/qgis-common/mActionArrowDown.png
+   :width: 1.5em
+.. |arrowUp| image:: _static/qgis-common/mActionArrowUp.png
+   :width: 1.5em
+.. |atlas| image:: _static/qgis-common/mIconAtlas.png
+   :width: 1.5em
+.. |atlasFirst| image:: _static/qgis-common/mActionAtlasFirst.png
+   :width: 1.5em
+.. |atlasLast| image:: _static/qgis-common/mActionAtlasLast.png
+   :width: 1.5em
+.. |atlasNext| image:: _static/qgis-common/mActionAtlasNext.png
+   :width: 1.5em
+.. |atlasPrev| image:: _static/qgis-common/mActionAtlasPrev.png
+   :width: 1.5em
+.. |atlasSettings| image:: _static/qgis-common/mActionAtlasSettings.png
+   :width: 1.5em
+.. |autoPlacement| image:: _static/qgis-common/mIconAutoPlacementSettings.png
+   :width: 1.5em
+.. |auxiliaryStorage| image:: _static/qgis-common/mIconAuxiliaryStorage.png
+   :width: 1.5em
+.. |basic| image:: _static/qgis-common/basic.png
+.. |browserCollapse| image:: _static/qgis-common/browser_collapse.png
+   :width: 1.5em
+.. |browserExpand| image:: _static/qgis-common/browser_expand.png
+   :width: 1.5em
+.. |buffer| image:: _static/qgis-common/buffer.png
+   :width: 1.5em
+.. |cad| image:: _static/qgis-common/cad.png
+   :width: 1.5em
+.. |cadConstruction| image:: _static/qgis-common/cad_construction.png
+   :width: 1.5em
+.. |cadParallel| image:: _static/qgis-common/cad_parallel.png
+   :width: 1.5em
+.. |cadPerpendicular| image:: _static/qgis-common/cad_perpendicular.png
+   :width: 1.5em
+.. |calculateField| image:: _static/qgis-common/mActionCalculateField.png
+   :width: 1.5em
+.. |cancelEdits| image:: _static/qgis-common/mActionCancelEdits.png
+   :width: 1.5em
+.. |captureBoundary| image:: _static/qgis-common/mActionCaptureBoundary.png
+   :width: 1.5em
+.. |captureCentroid| image:: _static/qgis-common/mActionCaptureCentroid.png
+   :width: 1.5em
+.. |captureLine| image:: _static/qgis-common/mActionCaptureLine.png
+   :width: 1.5em
+.. |capturePoint| image:: _static/qgis-common/mActionCapturePoint.png
+   :width: 1.5em
+.. |capturePolygon| image:: _static/qgis-common/mActionCapturePolygon.png
+   :width: 1.5em
+.. |categorizedSymbol| image:: _static/qgis-common/rendererCategorizedSymbol.png
+   :width: 1.5em
+.. |centroids| image:: _static/qgis-common/centroids.png
+   :width: 1.5em
+.. |changeLabelProperties| image:: _static/qgis-common/mActionChangeLabelProperties.png
+   :width: 1.5em
+.. |checkGeometry| image:: _static/qgis-common/check_geometry.png
+   :width: 1.5em
+.. |checkbox| image:: _static/qgis-common/checkbox.png
+   :width: 1.3em
+.. |circle2Points| image:: _static/qgis-common/mActionCircle2Points.png
+   :width: 1.5em
+.. |circle2TangentsPoint| image:: _static/qgis-common/mActionCircle2TangentsPoint.png
+   :width: 1.5em
+.. |circle3Points| image:: _static/qgis-common/mActionCircle3Points.png
+   :width: 1.5em
+.. |circle3Tangents| image:: _static/qgis-common/mActionCircle3Tangents.png
+   :width: 1.5em
+.. |circleCenterPoint| image:: _static/qgis-common/mActionCircleCenterPoint.png
+   :width: 1.5em
+.. |circularStringCurvePoint| image:: _static/qgis-common/mActionCircularStringCurvePoint.png
+   :width: 1.5em
+.. |circularStringRadius| image:: _static/qgis-common/mActionCircularStringRadius.png
+   :width: 1.5em
+.. |clearConsole| image:: _static/qgis-common/iconClearConsole.png
+   :width: 1.5em
+.. |clearText| image:: _static/qgis-common/mIconClearText.png
+   :width: 1.5em
+.. |clip| image:: _static/qgis-common/clip.png
+   :width: 1.5em
+.. |collapseTree| image:: _static/qgis-common/mActionCollapseTree.png
+   :width: 1.5em
+.. |color| image:: _static/qgis-common/color.png
+.. |colorBox| image:: _static/qgis-common/mIconColorBox.png
+   :width: 1.5em
+.. |colorPicker| image:: _static/qgis-common/mIconColorPicker.png
+   :width: 1.5em
+.. |colorSwatches| image:: _static/qgis-common/mIconColorSwatches.png
+   :width: 1.5em
+.. |colorWheel| image:: _static/qgis-common/mIconColorWheel.png
+   :width: 1.5em
+.. |comboBox| image:: _static/qgis-common/combobox.png
+   :width: 1.5em
+.. |conditionalFormatting| image:: _static/qgis-common/mActionConditionalFormatting.png
+   :width: 1.5em
+.. |contextHelp| image:: _static/qgis-common/mActionContextHelp.png
+   :width: 1.5em
+.. |convexHull| image:: _static/qgis-common/convex_hull.png
+   :width: 1.5em
+.. |coordinateCapture| image:: _static/qgis-common/coordinate_capture.png
+   :width: 1.5em
+.. |copySelected| image:: _static/qgis-common/mActionCopySelected.png
+   :width: 1.5em
+.. |copyrightLabel| image:: _static/qgis-common/copyright_label.png
+   :width: 1.5em
+.. |createGPX| image:: _static/qgis-common/create_gpx.png
+   :width: 1.5em
+.. |createMemory| image:: _static/qgis-common/mActionCreateMemory.png
+   :width: 1.5em
+.. |crs| image:: _static/qgis-common/CRS.png
+   :width: 1.5em
+.. |customProjection| image:: _static/qgis-common/mActionCustomProjection.png
+   :width: 1.5em
+.. |dataDefineError| image:: _static/qgis-common/mIconDataDefineError.png
+   :width: 1.5em
+.. |dataDefineExpressionError| image:: _static/qgis-common/mIconDataDefineExpressionError.png
+   :width: 1.5em
+.. |dataDefineExpressionOn| image:: _static/qgis-common/mIconDataDefineExpressionOn.png
+   :width: 1.5em
+.. |dataDefineOn| image:: _static/qgis-common/mIconDataDefineOn.png
+   :width: 1.5em
+.. |dataDefined| image:: _static/qgis-common/mIconDataDefine.png
+   :width: 1.5em
+.. |dataSourceManager| image:: _static/qgis-common/mActionDataSourceManager.png
+   :width: 1.5em
+.. |dateEdit| image:: _static/qgis-common/dateedit.png
+   :width: 1.5em
+.. |dateTimeEdit| image:: _static/qgis-common/datetimeedit.png
+   :width: 1.5em
+.. |db2| image:: _static/qgis-common/mIconDb2.png
+   :width: 1.5em
+.. |dbManager| image:: _static/qgis-common/dbmanager.png
+   :width: 1.5em
+.. |dbSchema| image:: _static/qgis-common/mIconDbSchema.png
+   :width: 1.5em
+.. |degrees| unicode:: 0x00B0
+   :ltrim:
+.. |delaunay| image:: _static/qgis-common/delaunay.png
+   :width: 1.5em
+.. |deleteAttribute| image:: _static/qgis-common/mActionDeleteAttribute.png
+   :width: 1.5em
+.. |deleteGCPPoint| image:: _static/qgis-common/mActionDeleteGCPPoint.png
+   :width: 1.5em
+.. |deletePart| image:: _static/qgis-common/mActionDeletePart.png
+   :width: 2em
+.. |deleteRing| image:: _static/qgis-common/mActionDeleteRing.png
+   :width: 2em
+.. |deleteSelected| image:: _static/qgis-common/mActionDeleteSelected.png
+   :width: 1.5em
+.. |deleteSelectedFeatures| image:: _static/qgis-common/mActionDeleteSelectedFeatures.png
+   :width: 1.5em
+.. |delta| image:: _static/qgis-common/delta.png
+   :width: 1.5em
+.. |demAnalysis| image:: _static/qgis-common/dem.png
+   :width: 1.5em
+.. |dependencies| image:: _static/qgis-common/dependencies.png
+   :width: 1.5em
+.. |deselectActiveLayer| image:: _static/qgis-common/mActionDeselectActiveLayer.png
+   :width: 1.5em
+.. |deselectAll| image:: _static/qgis-common/mActionDeselectAll.png
+   :width: 1.5em
+.. |diagram| image:: _static/qgis-common/diagram.png
+   :width: 2em
+.. |diagramNone| image:: _static/qgis-common/diagramNone.png
+   :width: 1.5em
+.. |difference| image:: _static/qgis-common/difference.png
+   :width: 1.5em
+.. |digitizing| image:: _static/qgis-common/digitizing.png
+   :width: 1.5em
+.. |display| image:: _static/qgis-common/display.png
+   :width: 1.5em
+.. |dissolve| image:: _static/qgis-common/dissolve.png
+   :width: 1.5em
+.. |dock| image:: _static/qgis-common/dock.png
+   :width: 1.5em
+.. |doubleSpinBox| image:: _static/qgis-common/doublespinbox.png
+   :width: 1.5em
+.. |duplicateFeature| image:: _static/qgis-common/mActionDuplicateFeature.png
+   :width: 1.5em
+.. |duplicateLayer| image:: _static/qgis-common/mActionDuplicateLayer.png
+   :width: 1.5em
+.. |duplicateLayout| image:: _static/qgis-common/mActionDuplicateLayout.png
+   :width: 1.5em
+.. |edit| image:: _static/qgis-common/edit.png
+   :width: 1.5em
+.. |editCopy| image:: _static/qgis-common/mActionEditCopy.png
+   :width: 1.5em
+.. |editCut| image:: _static/qgis-common/mActionEditCut.png
+   :width: 1.5em
+.. |editMetadata| image:: _static/qgis-common/editmetadata.png
+   :width: 1.2em
+.. |editNodesShape| image:: _static/qgis-common/mActionEditNodesShape.png
+   :width: 1.5em
+.. |editPaste| image:: _static/qgis-common/mActionEditPaste.png
+   :width: 1.5em
+.. |editableEdits| image:: _static/qgis-common/mIconEditableEdits.png
+   :width: 1em
+.. |ellipseCenter2Points| image:: _static/qgis-common/mActionEllipseCenter2Points.png
+   :width: 1.5em
+.. |ellipseCenterPoint| image:: _static/qgis-common/mActionEllipseCenterPoint.png
+   :width: 1.5em
+.. |ellipseExtent| image:: _static/qgis-common/mActionEllipseExtent.png
+   :width: 1.5em
+.. |ellipseFoci| image:: _static/qgis-common/mActionEllipseFoci.png
+   :width: 1.5em
+.. |expandNewTree| image:: _static/qgis-common/mActionExpandNewTree.png
+   :width: 1.5em
+.. |expandTree| image:: _static/qgis-common/mActionExpandTree.png
+   :width: 1.5em
+.. |exportGeometry| image:: _static/qgis-common/export_geometry.png
+   :width: 1.5em
+.. |expression| image:: _static/qgis-common/mIconExpression.png
+   :width: 1.5em
+.. |expressionFilter| image:: _static/qgis-common/mIconExpressionFilter.png
+   :width: 1.5em
+.. |expressionSelect| image:: _static/qgis-common/mIconExpressionSelect.png
+   :width: 1.5em
+.. |extents| image:: _static/qgis-common/extents.png
+   :width: 1.5em
+.. |extractNodes| image:: _static/qgis-common/extract_nodes.png
+   :width: 1.5em
+.. |favourites| image:: _static/qgis-common/mIconFavourites.png
+   :width: 1.5em
+.. |fieldFloat| image:: _static/qgis-common/mIconFieldFloat.png
+   :width: 1.5em
+.. |fieldText| image:: _static/qgis-common/mIconFieldText.png
+   :width: 1.5em
+.. |fileExit| image:: _static/qgis-common/mActionFileExit.png
+.. |fileNew| image:: _static/qgis-common/mActionFileNew.png
+   :width: 1.5em
+.. |fileOpen| image:: _static/qgis-common/mActionFileOpen.png
+   :width: 1.5em
+.. |filePrint| image:: _static/qgis-common/mActionFilePrint.png
+   :width: 1.5em
+.. |fileSave| image:: _static/qgis-common/mActionFileSave.png
+   :width: 1.5em
+.. |fileSaveAs| image:: _static/qgis-common/mActionFileSaveAs.png
+   :width: 1.5em
+.. |fillRing| image:: _static/qgis-common/mActionFillRing.png
+   :width: 1.5em
+.. |filterMap| image:: _static/qgis-common/mActionFilterMap.png
+   :width: 1.5em
+.. |filterTableFields| image:: _static/qgis-common/mActionFilterTableFields.png
+   :width: 1.5em
+.. |folder| image:: _static/qgis-common/mActionFolder.png
+   :width: 1.5em
+.. |fontComboBox| image:: _static/qgis-common/fontcombobox.png
+   :width: 1.5em
+.. |formAnnotation| image:: _static/qgis-common/mActionFormAnnotation.png
+   :width: 1.5em
+.. |formSelect| image:: _static/qgis-common/mIconFormSelect.png
+   :width: 1.5em
+.. |formView| image:: _static/qgis-common/mActionFormView.png
+   :width: 1.2em
+.. |frame| image:: _static/qgis-common/frame.png
+   :width: 1.5em
+.. |fromSelectedFeature| image:: _static/qgis-common/mActionFromSelectedFeature.png
+   :width: 1em
+.. |fullHistogramStretch| image:: _static/qgis-common/mActionFullHistogramStretch.png
+   :width: 1.5em
+.. |gdal| image:: _static/qgis-common/gdal.png
+   :width: 1.5em
+.. |gdalDem| image:: _static/qgis-common/gdal_dem.png
+   :width: 1.5em
+.. |gdalGrid| image:: _static/qgis-common/grid.png
+   :width: 1.5em
+.. |gdalMerge| image:: _static/qgis-common/merge.png
+   :width: 1.5em
+.. |gdalPolygonize| image:: _static/qgis-common/polygonize.png
+   :width: 1.5em
+.. |gdalRasterClip| image:: _static/qgis-common/raster-clip.png
+   :width: 1.5em
+.. |gdalRasterize| image:: _static/qgis-common/rasterize.png
+   :width: 1.5em
+.. |gdalReset| image:: _static/qgis-common/reset.png
+   :width: 1.5em
+.. |gdalScript| image:: _static/qgis-common/mActionGDALScript.png
+   :width: 1.5em
+.. |gdalWarp| image:: _static/qgis-common/warp.png
+   :width: 1.5em
+.. |general| image:: _static/qgis-common/general.png
+   :width: 1.5em
+.. |gentleLogo| image:: img/gentlelogo.png
+   :width: 3em
+.. |geoPackage| image:: _static/qgis-common/mGeoPackage.png
+   :width: 1.5em
+.. |geographic| image:: _static/qgis-common/geographic.png
+.. |geometry| image:: _static/qgis-common/geometry.png
+   :width: 1.5em
+.. |geometryChecker| image:: _static/qgis-common/geometrychecker.png
+   :width: 1.5em
+.. |geonode| image:: _static/qgis-common/mIconGeonode.png
+   :width: 1.5em
+.. |geoprocessing| image:: _static/qgis-common/geoprocessing.png
+   :width: 1.5em
+.. |georefRun| image:: _static/qgis-common/mGeorefRun.png
+   :width: 1.5em
+.. |githubBluePlus| image:: _static/qgis-common/githubBluePlus.png
+   :width: 1.5em
+.. |githubBranch| image:: _static/qgis-common/githubBranch.png
+   :width: 8em
+.. |githubCantMerge| image:: _static/qgis-common/githubCantMerge.png
+   :width: 12em
+.. |githubEditPencil| image:: _static/qgis-common/githubEditPencil.png
+   :width: 2em
+.. |githubFilesChanged| image:: _static/qgis-common/githubFilesChanged.png
+   :width: 8em
+.. |githubFork| image:: _static/qgis-common/githubFork.png
+   :width: 4em
+.. |githubSuggestions| image:: _static/qgis-common/githubSuggestions.png
+   :width: 1.5em
+.. |gpsImporter| image:: _static/qgis-common/gps_importer.png
+   :width: 1.5em
+.. |gpsTrackBarChart| image:: _static/qgis-common/gpstrack_barchart.png
+   :width: 1.5em
+.. |graduatedSymbol| image:: _static/qgis-common/rendererGraduatedSymbol.png
+   :width: 1.5em
+.. |grass| image:: _static/qgis-common/grasslogo.png
+   :width: 1.5em
+.. |grassCloseMapset| image:: _static/qgis-common/grass_close_mapset.png
+   :width: 1.5em
+.. |grassMapsetOpen| image:: _static/qgis-common/grass_mapset_open.png
+   :width: 1.5em
+.. |grassNewMapset| image:: _static/qgis-common/grass_new_mapset.png
+   :width: 1.5em
+.. |grassOpenMapset| image:: _static/qgis-common/grass_open_mapset.png
+   :width: 1.5em
+.. |grassRegion| image:: _static/qgis-common/grass_region.png
+   :width: 1.5em
+.. |grassRegionEdit| image:: _static/qgis-common/grass_region_edit.png
+   :width: 1.5em
+.. |grassTools| image:: _static/qgis-common/grass_tools.png
+   :width: 1.5em
+.. |groupItems| image:: _static/qgis-common/mActionGroupItems.png
+   :width: 1.5em
+.. |hSlider| image:: _static/qgis-common/hslider.png
+   :width: 1.5em
+.. |hard| image:: _static/qgis-common/hard.png
+.. |heatmap| image:: _static/qgis-common/heatmap.png
+   :width: 1.5em
+.. |heatmapSymbol| image:: _static/qgis-common/rendererHeatmapSymbol.png
+   :width: 1.5em
+.. |helpContents| image:: _static/qgis-common/mActionHelpContents.png
+   :width: 1.5em
+.. |helpSponsors| image:: _static/qgis-common/mActionHelpSponsors.png
+   :width: 1.5em
+.. |hideAllLayers| image:: _static/qgis-common/mActionHideAllLayers.png
+   :width: 1.5em
+.. |hideDeselectedLayers| image:: _static/qgis-common/mActionHideDeselectedLayers.png
+   :width: 1.5em
+.. |highlightFeature| image:: _static/qgis-common/mActionHighlightFeature.png
+   :width: 1.5em
+.. |hideSelectedLayers| image:: _static/qgis-common/mActionHideSelectedLayers.png
+   :width: 1.5em
+.. |histogram| image:: _static/qgis-common/histogram.png
+   :width: 1.5em
+.. |history| image:: _static/qgis-common/mActionHistory.png
+   :width: 1.5em
+.. |htmlAnnotation| image:: _static/qgis-common/mActionHtmlAnnotation.png
+   :width: 1.5em
+.. |iconView| image:: _static/qgis-common/mActionIconView.png
+   :width: 1.5em
+.. |identify| image:: _static/qgis-common/mActionIdentify.png
+   :width: 1.5em
+.. |identifyByFreehand| image:: _static/qgis-common/mActionIdentifyByFreehand.png
+   :width: 1.5em
+.. |identifyByPolygon| image:: _static/qgis-common/mActionIdentifyByPolygon.png
+   :width: 1.5em
+.. |identifyByRadius| image:: _static/qgis-common/mActionIdentifyByRadius.png
+   :width: 1.5em
+.. |identifyByRectangle| image:: _static/qgis-common/mActionIdentifyByRectangle.png
+   :width: 1.5em
+.. |import| image:: _static/qgis-common/mIconImport.png
+   :width: 1.5em
+.. |importGPX| image:: _static/qgis-common/import_gpx.png
+   :width: 1.5em
+.. |inOverview| image:: _static/qgis-common/mActionInOverview.png
+   :width: 1.5em
+.. |indicatorBadLayer| image:: _static/qgis-common/mIndicatorBadLayer.png
+   :width: 1.5em
+.. |indicatorEmbedded| image:: _static/qgis-common/mIndicatorEmbedded.png
+   :width: 1.5em
+.. |indicatorFilter| image:: _static/qgis-common/mIndicatorFilter.png
+   :width: 1.5em
+.. |indicatorMemory| image:: _static/qgis-common/mIndicatorMemory.png
+   :width: 1.5em
+.. |indicatorNoCRS| image:: _static/qgis-common/mIndicatorNoCRS.png
+   :width: 1.5em
+.. |inputText| image:: _static/qgis-common/inputtext.png
+.. |installPluginFromZip| image:: _static/qgis-common/mActionInstallPluginFromZip.png
+   :width: 1.5em
+.. |interfaceCustomization| image:: _static/qgis-common/mActionInterfaceCustomization.png
+   :width: 1.5em
+.. |interpolation| image:: _static/qgis-common/interpolation.png
+   :width: 1.5em
+.. |intersect| image:: _static/qgis-common/intersect.png
+   :width: 1.5em
+.. |invertSelection| image:: _static/qgis-common/mActionInvertSelection.png
+   :width: 1.5em
+.. |invertedSymbol| image:: _static/qgis-common/rendererInvertedSymbol.png
+   :width: 1.5em
+.. |join| image:: _static/qgis-common/join.png
+   :width: 2em
+.. |joinHasNotUpsertOnEdit| image:: _static/qgis-common/mIconJoinHasNotUpsertOnEdit.png
+   :width: 1.5em
+.. |joinNotEditable| image:: _static/qgis-common/mIconJoinNotEditable.png
+   :width: 1.5em
+.. |joinedLayerNotEditable| image:: _static/qgis-common/mIconJoinedLayerNotEditable.png
+   :width: 1.5em
+.. |kde| image:: _static/qgis-common/kde.png
+   :width: 1.5em
+.. |keyboardShortcuts| image:: _static/qgis-common/mActionKeyboardShortcuts.png
+   :width: 1.5em
+.. |label| image:: _static/qgis-common/mActionLabel.png
+   :width: 1.5em
+.. |labelbackground| image:: _static/qgis-common/labelbackground.png
+   :width: 1.5em
+.. |labelbuffer| image:: _static/qgis-common/labelbuffer.png
+   :width: 1.5em
+.. |labelcallout| image:: _static/qgis-common/labelcallout.png
+   :width: 1.5em
+.. |labelformatting| image:: _static/qgis-common/labelformatting.png
+   :width: 1.5em
+.. |labeling| image:: _static/qgis-common/labelingSingle.png
+   :width: 1.5em
+.. |labelingNone| image:: _static/qgis-common/labelingNone.png
+   :width: 1.5em
+.. |labelingObstacle| image:: _static/qgis-common/labelingObstacle.png
+   :width: 1.5em
+.. |labelingRuleBased| image:: _static/qgis-common/labelingRuleBased.png
+   :width: 1.5em
+.. |labelplacement| image:: _static/qgis-common/labelplacement.png
+   :width: 1.5em
+.. |labelshadow| image:: _static/qgis-common/labelshadow.png
+   :width: 1.5em
+.. |largeLandUseArea| replace:: Bontebok National Park
+.. |layerExtent| image:: _static/qgis-common/layer_extent.png
+   :width: 1.5em
+.. |layoutManager| image:: _static/qgis-common/mActionLayoutManager.png
+   :width: 1.5em
+.. |legend| image:: _static/qgis-common/legend.png
+   :width: 1.2em
+.. |lerato| image:: img/lerato_nsibande.png
+.. |lineLayer| image:: _static/qgis-common/mIconLineLayer.png
+   :width: 1.5em
+.. |linguist_done_next| image:: img/linguist_done_next.png
+   :width: 2em
+.. |linguist_next| image:: img/linguist_next.png
+   :width: 2em
+.. |linguist_next_todo| image:: img/linguist_next_todo.png
+   :width: 2em
+.. |linguist_previous| image:: img/linguist_previous.png
+   :width: 2em
+.. |linguist_previous_todo| image:: img/linguist_previous_todo.png
+   :width: 2em
+.. |link| image:: _static/qgis-common/mActionLink.png
+   :width: 1.5em
+.. |linkGeorefToQGis| image:: _static/qgis-common/mActionLinkGeorefToQGis.png
+   :width: 2.5em
+.. |linkQGisToGeoref| image:: _static/qgis-common/mActionLinkQGisToGeoref.png
+   :width: 2.5em
+.. |loadGCPpoints| image:: _static/qgis-common/mActionLoadGCPpoints.png
+   :width: 1.5em
+.. |localCRS| replace:: ``WGS 84 / UTM 34S``
+.. |localHistogramStretch| image:: _static/qgis-common/mActionLocalHistogramStretch.png
+   :width: 1.5em
+.. |locked| image:: _static/qgis-common/locked.png
+   :width: 1.5em
+.. |lockedGray| image:: _static/qgis-common/lockedGray.png
+   :width: 1.2em
+.. |lockItems| image:: _static/qgis-common/mActionLockItems.png
+   :width: 1.5em
+.. |lockedRepeat| image:: _static/qgis-common/lock_repeating.png
+   :width: 1.5em
+.. |logo| image:: _static/qgis-common/logo.png
+   :width: 1.5em
+.. |lowerItems| image:: _static/qgis-common/mActionLowerItems.png
+   :width: 1.5em
+.. |majorUrbanName| replace:: Swellendam
+.. |makepermanent| image:: _static/qgis-common/mIndicatorMemory.png
+   :width: 1.5em
+.. |mapIdentification| image:: _static/qgis-common/mActionMapIdentification.png
+   :width: 1.5em
+.. |mapTips| image:: _static/qgis-common/mActionMapTips.png
+   :width: 1.5em
+.. |marcelle| image:: img/marcelle_sutton.png
+.. |mean| image:: _static/qgis-common/mean.png
+   :width: 1.5em
+.. |measure| image:: _static/qgis-common/mActionMeasure.png
+   :width: 1.5em
+.. |measureAngle| image:: _static/qgis-common/mActionMeasureAngle.png
+   :width: 1.5em
+.. |measureArea| image:: _static/qgis-common/mActionMeasureArea.png
+   :width: 1.5em
+.. |mergeFeatAttributes| image:: _static/qgis-common/mActionMergeFeatureAttributes.png
+   :width: 1.5em
+.. |mergeFeatures| image:: _static/qgis-common/mActionMergeFeatures.png
+   :width: 1.5em
+.. |meshcontours| image:: _static/qgis-common/meshcontours.png
+   :width: 1.5em
+.. |meshcontoursoff| image:: _static/qgis-common/meshcontoursoff.png
+   :width: 1.5em
+.. |meshframe| image:: _static/qgis-common/meshframe.png
+   :width: 1.5em
+.. |meshvectors| image:: _static/qgis-common/meshvectors.png
+   :width: 1.5em
+.. |meshvectorsoff| image:: _static/qgis-common/meshvectorsoff.png
+   :width: 1.5em
+.. |messageLog| image:: _static/qgis-common/mMessageLog.png
+   :width: 1.5em
+.. |metadata| image:: _static/qgis-common/metadata.png
+   :width: 1.5em
+.. |metasearch| image:: _static/qgis-common/MetaSearch.png
+   :width: 1.5em
+.. |moderate| image:: _static/qgis-common/moderate.png
+.. |moveFeature| image:: _static/qgis-common/mActionMoveFeature.png
+   :width: 1.5em
+.. |moveFeatureCopy| image:: _static/qgis-common/mActionMoveFeatureCopy.png
+   :width: 1.5em
+.. |moveFeatureCopyLine| image:: _static/qgis-common/mActionMoveFeatureCopyLine.png
+   :width: 1.5em
+.. |moveFeatureCopyPoint| image:: _static/qgis-common/mActionMoveFeatureCopyPoint.png
+   :width: 1.5em
+.. |moveFeatureLine| image:: _static/qgis-common/mActionMoveFeatureLine.png
+   :width: 1.5em
+.. |moveFeaturePoint| image:: _static/qgis-common/mActionMoveFeaturePoint.png
+   :width: 1.5em
+.. |moveGCPPoint| image:: _static/qgis-common/mActionMoveGCPPoint.png
+   :width: 1.5em
+.. |moveItemContent| image:: _static/qgis-common/mActionMoveItemContent.png
+   :width: 1.5em
+.. |moveItemsToBottom| image:: _static/qgis-common/mActionMoveItemsToBottom.png
+   :width: 1.5em
+.. |moveItemsToTop| image:: _static/qgis-common/mActionMoveItemsToTop.png
+   :width: 1.5em
+.. |moveLabel| image:: _static/qgis-common/mActionMoveLabel.png
+   :width: 1.5em
+.. |mssql| image:: _static/qgis-common/mIconMssql.png
+   :width: 1.5em
+.. |multiEdit| image:: _static/qgis-common/mActionMultiEdit.png
+   :width: 1.5em
+.. |multiEditChangedValues| image:: _static/qgis-common/multieditChangedValues.png
+   :width: 1.5em
+.. |multiEditMixedValues| image:: _static/qgis-common/multieditMixedValues.png
+   :width: 1.5em
+.. |multiEditSameValues| image:: _static/qgis-common/multieditSameValues.png
+   :width: 1.5em
+.. |new3DMap| image:: _static/qgis-common/mActionNew3DMap.png
+   :width: 1.5em
+.. |newAttribute| image:: _static/qgis-common/mActionNewAttribute.png
+   :width: 1.5em
+.. |newBookmark| image:: _static/qgis-common/mActionNewBookmark.png
+   :width: 1.5em
+.. |newGeoPackageLayer| image:: _static/qgis-common/mActionNewGeoPackageLayer.png
+   :width: 1.5em
+.. |newLayout| image:: _static/qgis-common/mActionNewLayout.png
+   :width: 1.5em
+.. |newMap| image:: _static/qgis-common/mActionNewMap.png
+   :width: 1.5em
+.. |newPage| image:: _static/qgis-common/mActionNewPage.png
+   :width: 1.5em
+.. |newReport| image:: _static/qgis-common/mActionNewReport.png
+   :width: 1.5em
+.. |newSpatiaLiteLayer| image:: _static/qgis-common/mActionNewSpatiaLiteLayer.png
+   :width: 1.5em
+.. |newTableRow| image:: _static/qgis-common/mActionNewTableRow.png
+   :width: 1.5em
+.. |newVectorLayer| image:: _static/qgis-common/mActionNewVectorLayer.png
+   :width: 1.5em
+.. |newVirtualLayer| image:: _static/qgis-common/mActionNewVirtualLayer.png
+   :width: 1.5em
+.. |nix| image:: _static/qgis-common/nix.png
+   :width: 1em
+.. |northArrow| image:: _static/qgis-common/north_arrow.png
+   :width: 1.5em
+.. |note| image:: _static/qgis-common/comment.png
+.. |nullSymbol| image:: _static/qgis-common/rendererNullSymbol.png
+   :width: 1.5em
+.. |offlineEditingCopy| image:: _static/qgis-common/offline_editing_copy.png
+   :width: 1.5em
+.. |offlineEditingSync| image:: _static/qgis-common/offline_editing_sync.png
+   :width: 1.5em
+.. |offsetCurve| image:: _static/qgis-common/mActionOffsetCurve.png
+   :width: 1.5em
+.. |offsetPointSymbols| image:: _static/qgis-common/mActionOffsetPointSymbols.png
+   :width: 1.5em
+.. |openTable| image:: _static/qgis-common/mActionOpenTable.png
+   :width: 1.5em
+.. |options| image:: _static/qgis-common/mActionOptions.png
+   :width: 1em
+.. |oracle| image:: _static/qgis-common/mIconOracle.png
+   :width: 1.5em
+.. |osx| image:: _static/qgis-common/osx.png
+   :width: 1em
+.. |otto| image:: img/otto_dassau.png
+.. |outofdate| replace:: `Despite our constant efforts, information beyond this line may not be updated for QGIS 3. Refer to https://qgis.org/pyqgis/master for the python API documentation or, give a hand to update the chapters you know about. Thanks.`
+.. |overlay| image:: _static/qgis-common/overlay.png
+   :width: 1.5em
+.. |ows| image:: _static/qgis-common/mIconOws.png
+   :width: 1.5em
+.. |paintEffects| image:: _static/qgis-common/mIconPaintEffects.png
+   :width: 1.5em
+.. |pan| image:: _static/qgis-common/mActionPan.png
+   :width: 1.5em
+.. |panTo| image:: _static/qgis-common/mActionPanTo.png
+   :width: 1.5em
+.. |panToSelected| image:: _static/qgis-common/mActionPanToSelected.png
+   :width: 1.5em
+.. |pencil| image:: _static/qgis-common/pencil.png
+   :width: 1.5em
+.. |piechart| image:: _static/qgis-common/pie-chart.png
+   :width: 1.5em
+.. |pinLabels| image:: _static/qgis-common/mActionPinLabels.png
+   :width: 1.5em
+.. |play| image:: _static/qgis-common/mActionPlay.png
+   :width: 1.5em
+.. |plugin| image:: _static/qgis-common/plugin.png
+   :width: 1.5em
+.. |plugin-new| image:: _static/qgis-common/plugin-new.png
+   :width: 1.5em
+.. |plugin-upgrade| image:: _static/qgis-common/plugin-upgrade.png
+   :width: 1.5em
+.. |pluginInstalled| image:: _static/qgis-common/plugin-installed.png
+   :width: 1.5em
+.. |pluginInvalid| image:: _static/qgis-common/plugin-incompatible.png
+   :width: 1.5em
+.. |pluginNew| image:: _static/qgis-common/pluginNew.png
+   :width: 1.5em
+.. |pluginUpgrade| image:: _static/qgis-common/pluginUpgrade.png
+   :width: 1.5em
+.. |pointClusterSymbol| image:: _static/qgis-common/rendererPointClusterSymbol.png
+   :width: 1.5em
+.. |pointDisplacementSymbol| image:: _static/qgis-common/rendererPointDisplacementSymbol.png
+   :width: 1.5em
+.. |pointLayer| image:: _static/qgis-common/mIconPointLayer.png
+   :width: 1.5em
+.. |polygonLayer| image:: _static/qgis-common/mIconPolygonLayer.png
+   :width: 1.5em
+.. |postgis| image:: _static/qgis-common/mIconPostgis.png
+   :width: 1.5em
+.. |processSelected| image:: _static/qgis-common/mActionProcessSelected.png
+   :width: 1.5em
+.. |processing| image:: _static/qgis-common/processingAlgorithm.png
+   :width: 1.5em
+.. |processingHistory| image:: _static/qgis-common/history.png
+   :width: 1.5em
+.. |processingModel| image:: _static/qgis-common/processingModel.png
+   :width: 1.5em
+.. |processingResult| image:: _static/qgis-common/processingResult.png
+   :width: 1.5em
+.. |projectProperties| image:: _static/qgis-common/mActionProjectProperties.png
+   :width: 1.5em
+.. |projectionDisabled| image:: _static/qgis-common/mIconProjectionDisabled.png
+   :width: 1.5em
+.. |projectionEnabled| image:: _static/qgis-common/mIconProjectionEnabled.png
+   :width: 1.5em
+.. |pyramids| image:: _static/qgis-common/pyramids.png
+   :width: 1.5em
+.. |pythonFile| image:: _static/qgis-common/mIconPythonFile.png
+   :width: 1.5em
+.. |qgisHomePage| image:: _static/qgis-common/mActionQgisHomePage.png
+   :width: 1.5em
+.. |qgissplash| image:: _static/qgis-common/splash.png
+.. |qgsProjectFile| image:: _static/qgis-common/mIconQgsProjectFile.png
+   :width: 1.5em
+.. |radioButtonOff| image:: _static/qgis-common/radiobuttonoff.png
+   :width: 1.5em
+.. |radioButtonOn| image:: _static/qgis-common/radiobuttonon.png
+   :width: 1.5em
+.. |raiseItems| image:: _static/qgis-common/mActionRaiseItems.png
+   :width: 1.5em
+.. |randomSelection| image:: _static/qgis-common/random_selection.png
+   :width: 1.5em
+.. |raster| image:: _static/qgis-common/mIconRaster.png
+   :width: 1.5em
+.. |rasterGroup| image:: _static/qgis-common/mIconRasterGroup.png
+   :width: 1.5em
+.. |rasterHistogram| image:: _static/qgis-common/rasterHistogram.png
+   :width: 1.5em
+.. |rasterLayer| image:: _static/qgis-common/mIconRasterLayer.png
+   :width: 1.5em
+.. |rasterLink| image:: _static/qgis-common/mIconRasterLink.png
+   :width: 1.5em
+.. |rectangle3PointsDistance| image:: _static/qgis-common/mActionRectangle3PointsDistance.png
+   :width: 1.5em
+.. |rectangle3PointsProjected| image:: _static/qgis-common/mActionRectangle3PointsProjected.png
+   :width: 1.5em
+.. |rectangleCenter| image:: _static/qgis-common/mActionRectangleCenter.png
+   :width: 1.5em
+.. |rectangleExtent| image:: _static/qgis-common/mActionRectangleExtent.png
+   :width: 1.5em
+.. |redo| image:: _static/qgis-common/mActionRedo.png
+   :width: 1.5em
+.. |refresh| image:: _static/qgis-common/mActionRefresh.png
+   :width: 1.5em
+.. |regularPolygon2Points| image:: _static/qgis-common/mActionRegularPolygon2Points.png
+   :width: 1.5em
+.. |regularPolygonCenterCorner| image:: _static/qgis-common/mActionRegularPolygonCenterCorner.png
+   :width: 1.5em
+.. |regularPolygonCenterPoint| image:: _static/qgis-common/mActionRegularPolygonCenterPoint.png
+   :width: 1.5em
+.. |remove| image:: _static/qgis-common/mActionRemove.png
+   :width: 1.5em
+.. |removeAllOVerview| image:: _static/qgis-common/mActionRemoveAllFromOverview.png
+   :width: 1.5em
+.. |removeLayer| image:: _static/qgis-common/mActionRemoveLayer.png
+   :width: 1.5em
+.. |render| image:: _static/qgis-common/render.png
+   :width: 1.5em
+.. |rendering| image:: _static/qgis-common/rendering.png
+   :width: 1.5em
+.. |reshape| image:: _static/qgis-common/mActionReshape.png
+   :width: 1.5em
+.. |resizeNarrowest| image:: _static/qgis-common/mActionResizeNarrowest.png
+   :width: 1.5em
+.. |resizeShortest| image:: _static/qgis-common/mActionResizeShortest.png
+   :width: 1.5em
+.. |resizeSquare| image:: _static/qgis-common/mActionResizeSquare.png
+   :width: 1.5em
+.. |resizeTallest| image:: _static/qgis-common/mActionResizeTallest.png
+   :width: 1.5em
+.. |resizeWidest| image:: _static/qgis-common/mActionResizeWidest.png
+   :width: 1.5em
+.. |reverseLine| image:: _static/qgis-common/mActionReverseLine.png
+   :width: 1.5em
+.. |rollbackEdits| image:: _static/qgis-common/mActionRollbackEdits.png
+   :width: 1.5em
+.. |rotateFeature| image:: _static/qgis-common/mActionRotateFeature.png
+   :width: 1.5em
+.. |rotateLabel| image:: _static/qgis-common/mActionRotateLabel.png
+   :width: 1.5em
+.. |rotatePointSymbols| image:: _static/qgis-common/mActionRotatePointSymbols.png
+   :width: 1.5em
+.. |ruleBasedSymbol| image:: _static/qgis-common/rendererRuleBasedSymbol.png
+   :width: 1.5em
+.. |runConsole| image:: _static/qgis-common/iconRunConsole.png
+   :width: 1.5em
+.. |sampling| image:: _static/qgis-common/sampling.png
+   :width: 1.5em
+.. |saveAsPDF| image:: _static/qgis-common/mActionSaveAsPDF.png
+   :width: 1.5em
+.. |saveAsSVG| image:: _static/qgis-common/mActionSaveAsSVG.png
+   :width: 1.5em
+.. |saveEdits| image:: _static/qgis-common/mActionSaveEdits.png
+   :width: 1.5em
+.. |saveGCPPointsAs| image:: _static/qgis-common/mActionSaveGCPpointsAs.png
+   :width: 1.5em
+.. |saveMapAsImage| image:: _static/qgis-common/mActionSaveMapAsImage.png
+   :width: 1.5em
+.. |scaleBar| image:: _static/qgis-common/mActionScaleBar.png
+   :width: 1.5em
+.. |schoolAreaType1| replace:: athletics field
+.. |search| image:: _static/qgis-common/search.png
+   :width: 1.5em
+.. |select| image:: _static/qgis-common/mActionSelect.png
+   :width: 1.5em
+.. |selectAll| image:: _static/qgis-common/mActionSelectAll.png
+   :width: 1.5em
+.. |selectAllTree| image:: _static/qgis-common/mActionSelectAllTree.png
+   :width: 1.5em
+.. |selectColor| image:: _static/qgis-common/selectcolor.png
+.. |selectColorRamp| image:: _static/qgis-common/selectcolorramp.png
+.. |selectFreehand| image:: _static/qgis-common/mActionSelectFreehand.png
+   :width: 1.5em
+.. |selectNumber| image:: _static/qgis-common/selectnumber.png
+   :width: 2.8em
+.. |selectPolygon| image:: _static/qgis-common/mActionSelectPolygon.png
+   :width: 1.5em
+.. |selectRadius| image:: _static/qgis-common/mActionSelectRadius.png
+   :width: 1.5em
+.. |selectRectangle| image:: _static/qgis-common/mActionSelectRectangle.png
+   :width: 1.5em
+.. |selectString| image:: _static/qgis-common/selectstring.png
+   :width: 2.5em
+.. |selectedToTop| image:: _static/qgis-common/mActionSelectedToTop.png
+   :width: 1.5em
+.. |setProjection| image:: _static/qgis-common/mActionSetProjection.png
+   :width: 1.5em
+.. |setToCanvasExtent| image:: _static/qgis-common/mActionSetToCanvasExtent.png
+   :width: 1.5em
+.. |setToCanvasScale| image:: _static/qgis-common/mActionSetToCanvasScale.png
+   :width: 1.5em
+.. |settings| image:: _static/qgis-common/settings.png
+   :width: 1.5em
+.. |sharing| image:: _static/qgis-common/mActionSharing.png
+   :width: 1.5em
+.. |sharingExport| image:: _static/qgis-common/mActionSharingExport.png
+   :width: 1.5em
+.. |sharingImport| image:: _static/qgis-common/mActionSharingImport.png
+   :width: 1.5em
+.. |showAllLayers| image:: _static/qgis-common/mActionShowAllLayers.png
+   :width: 1.5em
+.. |showBookmarks| image:: _static/qgis-common/mActionShowBookmarks.png
+   :width: 1.5em
+.. |showEditorConsole| image:: _static/qgis-common/iconShowEditorConsole.png
+   :width: 1.5em
+.. |showHideLabels| image:: _static/qgis-common/mActionShowHideLabels.png
+   :width: 1.5em
+.. |showMapTheme| image:: _static/qgis-common/mActionShowPresets.png
+   :width: 1.5em
+.. |showMeshCalculator| image:: _static/qgis-common/mActionShowMeshCalculator.png
+   :width: 1.5em
+.. |showPinnedLabels| image:: _static/qgis-common/mActionShowPinnedLabels.png
+   :width: 1.5em
+.. |showPluginManager| image:: _static/qgis-common/mActionShowPluginManager.png
+   :width: 1.5em
+.. |showRasterCalculator| image:: _static/qgis-common/mActionShowRasterCalculator.png
+   :width: 1.5em
+.. |showSelectedLayers| image:: _static/qgis-common/mActionShowSelectedLayers.png
+   :width: 1.5em
+.. |showUnplacedLabel| image:: _static/qgis-common/mActionShowUnplacedLabel.png
+   :width: 1.5em
+.. |sibongile| image:: img/sibongile_mthombeni.png
+.. |signMinus| image:: _static/qgis-common/symbologyRemove.png
+   :width: 1.5em
+.. |signPlus| image:: _static/qgis-common/symbologyAdd.png
+   :width: 1.5em
+.. |simplifyFeatures| image:: _static/qgis-common/mActionSimplify.png
+   :width: 1.5em
+.. |singleSymbol| image:: _static/qgis-common/rendererSingleSymbol.png
+   :width: 1.5em
+.. |slider| image:: _static/qgis-common/slider.png
+.. |snapping| image:: _static/qgis-common/mIconSnapping.png
+   :width: 1.5em
+.. |snappingIntersection| image:: _static/qgis-common/mIconSnappingIntersection.png
+   :width: 1.5em
+.. |sort| image:: _static/qgis-common/sort.png
+   :width: 1.5em
+.. |sourceFields| image:: _static/qgis-common/mSourceFields.png
+   :width: 1.5em
+.. |spatialite| image:: _static/qgis-common/mIconSpatialite.png
+   :width: 1.5em
+.. |splitFeatures| image:: _static/qgis-common/mActionSplitFeatures.png
+   :width: 1.5em
+.. |splitLayer| image:: _static/qgis-common/split_layer.png
+   :width: 1.5em
+.. |splitParts| image:: _static/qgis-common/mActionSplitParts.png
+   :width: 1.5em
+.. |sqlQueryBuilder| image:: _static/qgis-common/sqlquerybuilder.png
+   :width: 1.5em
+.. |srtmFileName| replace:: :file:`srtm_41_19_4326.tif`
+.. |stackedBar| image:: _static/qgis-common/stacked-bar.png
+   :width: 1.5em
+.. |start| image:: _static/qgis-common/mActionStart.png
+   :width: 1.5em
+.. |styleManager| image:: _static/qgis-common/mActionStyleManager.png
+   :width: 1.5em
+.. |stylePreset| image:: _static/qgis-common/stylepreset.png
+   :width: 1.5em
+.. |success| image:: _static/qgis-common/mIconSuccess.png
+   :width: 1em
+.. |sum| image:: _static/qgis-common/mActionSum.png
+   :width: 1.2em
+.. |svgAnnotation| image:: _static/qgis-common/mActionSvgAnnotation.png
+   :width: 1.5em
+.. |symDifference| image:: _static/qgis-common/sym_difference.png
+   :width: 1.5em
+.. |symbology| image:: _static/qgis-common/symbology.png
+   :width: 2em
+.. |symbologyEdit| image:: _static/qgis-common/symbologyEdit.png
+   :width: 1.5em
+.. |system| image:: _static/qgis-common/system.png
+   :width: 1.5em
+.. |tab| image:: _static/qgis-common/tab.png
+   :width: 1.5em
+.. |tableLayer| image:: _static/qgis-common/mIconTableLayer.png
+   :width: 1.5em
+.. |text| image:: _static/qgis-common/text.png
+   :width: 1.5em
+.. |textAnnotation| image:: _static/qgis-common/mActionTextAnnotation.png
+   :width: 1.5em
+.. |tim| image:: img/tim_sutton.png
+.. |tiltDown| image:: _static/qgis-common/mActionTiltDown.png
+   :width: 1.5em
+.. |tiltUp| image:: _static/qgis-common/mActionTiltUp.png
+   :width: 1.5em
+.. |titleLabel| image:: _static/qgis-common/title_label.png
+   :width: 1.5em
+.. |toLines| image:: _static/qgis-common/to_lines.png
+   :width: 1.5em
+.. |toggleAllLayers| image:: _static/qgis-common/mActionToggleAllLayers.png
+   :width: 1.5em
+.. |toggleEditing| image:: _static/qgis-common/mActionToggleEditing.png
+   :width: 1.5em
+.. |toggleSelectedLayers| image:: _static/qgis-common/mActionToggleSelectedLayers.png
+   :width: 1.5em
+.. |toolbox| replace:: :menuselection:`Processing --> Toolbox`
+.. |topopologicalEditing| image:: _static/qgis-common/mIconTopologicalEditing.png
+   :width: 1.5em
+.. |topologyChecker| image:: _static/qgis-common/mActionTopologyChecker.png
+   :width: 1.5em
+.. |tracing| image:: _static/qgis-common/mActionTracing.png
+   :width: 1.5em
+.. |tracking| image:: _static/qgis-common/tracking.png
+   :width: 1.5em
+.. |transformSettings| image:: _static/qgis-common/mActionTransformSettings.png
+   :width: 1.5em
+.. |transformed| image:: _static/qgis-common/transformed.png
+   :width: 1.5em
+.. |transparency| image:: _static/qgis-common/transparency.png
+   :width: 1.5em
+.. |trimExtend| image:: _static/qgis-common/mActionTrimExtend.png
+   :width: 1.5em
+.. |unchecked| image:: _static/qgis-common/checkbox_unchecked.png
+   :width: 1.3em
+.. |undo| image:: _static/qgis-common/mActionUndo.png
+   :width: 1.5em
+.. |ungroupItems| image:: _static/qgis-common/mActionUngroupItems.png
+   :width: 1.5em
+.. |union| image:: _static/qgis-common/union.png
+   :width: 1.5em
+.. |unlink| image:: _static/qgis-common/mActionUnlink.png
+   :width: 1.5em
+.. |unlockAll| image:: _static/qgis-common/mActionUnlockAll.png
+   :width: 1.5em
+.. |unlocked| image:: _static/qgis-common/unlocked.png
+   :width: 1.5em
+.. |vector| image:: _static/qgis-common/mIconVector.png
+   :width: 1.5em
+.. |vectorGrid| image:: _static/qgis-common/vector_grid.png
+   :width: 1.5em
+.. |vectorTileLayer| image:: _static/qgis-common/mIconVectorTileLayer.png
+   :width: 1.5em
+.. |vertexTool| image:: _static/qgis-common/mActionVertexTool.png
+   :width: 1.5em
+.. |vertexToolActiveLayer| image:: _static/qgis-common/mActionVertexToolActiveLayer.png
+   :width: 1.5em
+.. |viewExtentInCanvas| image:: _static/qgis-common/mActionViewExtentInCanvas.png
+   :width: 1.5em
+.. |viewScaleInCanvas| image:: _static/qgis-common/mActionViewScaleInCanvas.png
+   :width: 1.5em
+.. |virtualLayer| image:: _static/qgis-common/mIconVirtualLayer.png
+   :width: 1.5em
+.. |wcs| image:: _static/qgis-common/mIconWcs.png
+   :width: 1.5em
+.. |wfs| image:: _static/qgis-common/mIconWfs.png
+   :width: 1.5em
+.. |win| image:: _static/qgis-common/win.png
+   :width: 1em
+.. |wms| image:: _static/qgis-common/mIconWms.png
+   :width: 1.5em
+.. |xyz| image:: _static/qgis-common/mIconXyz.png
+   :width: 1.5em
+.. |zoomActual| image:: _static/qgis-common/mActionZoomActual.png
+   :width: 1.5em
+.. |zoomFullExtent| image:: _static/qgis-common/mActionZoomFullExtent.png
+   :width: 1.5em
+.. |zoomIn| image:: _static/qgis-common/mActionZoomIn.png
+   :width: 1.5em
+.. |zoomLast| image:: _static/qgis-common/mActionZoomLast.png
+   :width: 1.5em
+.. |zoomNext| image:: _static/qgis-common/mActionZoomNext.png
+   :width: 1.5em
+.. |zoomOut| image:: _static/qgis-common/mActionZoomOut.png
+   :width: 1.5em
+.. |zoomToArea| image:: _static/qgis-common/mActionZoomToArea.png
+   :width: 1.5em
+.. |zoomToBookmark| image:: _static/qgis-common/mActionZoomToBookmark.png
+   :width: 1.5em
+.. |zoomToLayer| image:: _static/qgis-common/mActionZoomToLayer.png
+   :width: 1.5em
+.. |zoomToSelected| image:: _static/qgis-common/mActionZoomToSelected.png
+   :width: 1.5em
