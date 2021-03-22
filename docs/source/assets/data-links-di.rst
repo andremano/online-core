@@ -4,9 +4,9 @@
    Course Id: 6539
 
 
-.. _sistan-report:            https://canvas.utwente.nl/files/1946375/download?download_frd=1
-.. _data-mono-multi:          https://canvas.utwente.nl/courses/6642/files/1900107/download?download_frd=1
-.. _data_resampling:          https://canvas.utwente.nl/courses/6642/files/1899985/download?download_frd=1
-.. _data_change_detection:    https://canvas.utwente.nl/courses/6642/files/1899987/download?download_frd=1
-.. _data_use_users:           https://canvas.utwente.nl/files/1907870/download?download_frd=1
+.. _sistan-report:            https://github.com/andremano/online-core/raw/main/docs/source/_static/datasets/sistan-report-rev2020.pdf
+.. _data-mono-multi:          https://github.com/andremano/online-core/raw/main/docs/source/_static/datasets/mono_bi-temporal_classification.zip
+.. _data_resampling:          https://github.com/andremano/online-core/raw/main/docs/source/_static/datasets/resampling.zip
+.. _data_change_detection:    https://github.com/andremano/online-core/raw/main/docs/source/_static/datasets/change_detection.zip
+.. _data_use_users:           https://github.com/andremano/online-core/raw/main/docs/source/_static/datasets/uses_users_case_study.pdf
 
