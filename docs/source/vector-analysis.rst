@@ -17,7 +17,7 @@ In this exercise, we will discuss all these measurements. A general overview of 
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of `QGIS (A Coruna 3.10) <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `vector-analys.zip <vector_analysis_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside: 
+   You will require the latest LTR version of `QGIS (A Coruna 3.10) <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `vector-analysis.zip <_vector_analysis>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside:
 
    + ``Vector_analysis.qgs`` – a QGIS project preloaded with the datasets below;
    
