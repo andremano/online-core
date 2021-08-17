@@ -2,6 +2,8 @@
 
 Learning material for the course 'Principles of GIS and Remote Sensing'.
 
+[![DOI](https://zenodo.org/badge/322062829.svg)](https://zenodo.org/badge/latestdoi/322062829)
+
 ## Relevant Points Regarding the Hosting
 
 * The public link hooked to Canvas will expire on the **01-12-2020.**
