@@ -11,8 +11,6 @@ The Core Course: Exercises
    :caption: Introduction
 
    how-to
-   intro-qgis
-
 
 .. toctree::
    :maxdepth: 2
