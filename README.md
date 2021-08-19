@@ -1,6 +1,6 @@
 # Online-Core
 
-Learning material for the course 'Principles of GIS and Remote Sensing'.
+Learning material for the course 'Principles and applications of GIS and Remote Sensing'.
 
 [![DOI](https://zenodo.org/badge/322062829.svg)](https://zenodo.org/badge/latestdoi/322062829)
 
