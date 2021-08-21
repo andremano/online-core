@@ -18,6 +18,7 @@ The Core Course: Exercises
    :numbered: 
    :caption: GI Science
 
+   data-modeling-es
    data-modeling
    data-entry
    georeferencing
