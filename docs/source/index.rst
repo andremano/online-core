@@ -16,13 +16,13 @@ The Core Course: Exercises
 .. toctree::
    :maxdepth: 2
    :numbered: 
-   :caption: GI Science
+   :caption: Ejercicios
 
    data-modeling-es
 
 .. toctree::
    :maxdepth: 2
-   :caption: Appendices
+   :caption: Apendices
 
 
 .. Indices and tables
