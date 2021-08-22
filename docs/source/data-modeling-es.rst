@@ -243,9 +243,9 @@ Tarea 12
       
    Pasos para crear una capa de puntos usando un archivo CSV en QGIS
 
-   De la tarea anterior, debe tenerse claro que **puntos** son las geometrías más simples. Puntos tienen coordenadas Y y X que los anclan al marco espacial en el que está trabajando.
+De la tarea anterior, debe tenerse claro que **puntos** son las geometrías más simples. Puntos tienen coordenadas Y y X que los anclan al marco espacial en el que está trabajando.
 
-   Otra forma de representar un fenómeno geográfico en el modelo de datos vectoriales es utilizando  |ltb| `Líneas <Line representation_>`_. Una **línea** no es más que dos o más puntos conectados.
+Otra forma de representar un fenómeno geográfico en el modelo de datos vectoriales es utilizando  |ltb| `Líneas <Line representation_>`_. Una **línea** no es más que dos o más puntos conectados.
 
 .. attention:: 
    **Pregunta.**
@@ -280,103 +280,77 @@ Tarea 14
    5                 \                  \
    ===============  ===============  ==================
 
-[COMTINUE HERE]
-
-When looking at two polygons, we can define all their possible topological relationships. To do so, we must describe each polygon in terms of its boundary and its interior (the area inside the boundary). Read |ltb| `Topological relationship`_.
+tomando polígonos como ejemplo, podemos definir todas sus posibles relaciones topológicas. Para hacerlo, debemos describir cada polígono en términos de su límite y su interior (el área dentro del límite). Lee |ltb| `relaciones topológico <Topological relationship_>`_.
 
 .. figure:: _static/img/topo-fundamentals.png
    :alt: topology fundamental concepts
    :figclass: align-center
 
-   The boundary, interior and exterior of polygons, lines and points
+   El límite, interior y exterior de polígonos, líneas y puntos.
 
 .. attention:: 
-   **Question.**
-   What is the correct mathematical (set theory) expression that describes the *covers* relationship? How does this expression differ from the covered by relationship?
+   **Pregunta.**
+   ¿Cuál es la expresión matemática correcta (teoría de conjuntos) que describe la relación *Cubre (covers)*? ¿En qué se diferencia esta expresión la relación *cubierto por*?
 
-By now, you should understand what topology is, but you may wonder how it can be used. During the coming exercises, you will see many different uses, but for now, focus on an example given in the |ltb| `Topological data model`_.
+A estas alturas, debe comprendería qué es la topología, pero es posible que se pregunte cómo se puede utilizar. Durante los próximos ejercicios, verá algunos usos.
 
-
-.. attention:: 
-   **Question.**
-   For the map below, can you complete its corresponding attribute table following the topological data structure? 
-   The map below shows a polygon layer based on administrative units  (municipalities). Focus your attention on the **Geldrop-Mierlo** municipality and its adjacent municipalities. The table below shows an example of the topological data structure for Geldrop-Mierlo. 
-
-   .. image:: _static/img/geldrop-mierlo.png
-      :align: center
-   
-   \
-
-   .. image:: _static/img/geldrop-table.png
-      :align: center
+La topología también se puede utilizar para garantizar la coherencia de las geometrías en una capa vectorial. Hay cinco reglas o normas de |ltb| `consistencia topológica <Topological consistency_>`_, que deberías conocer.
 
 
-Topology can also be used to ensure consistency of the geometries in a vector layer. There are five rules of  |ltb| `Topological consistency`_, which you should know about.
-  
 
-Task 15
-   Identify for every example below which rule of topological consistency is violated. 
+Tarea 15
+   Para cada ejemplo en la siguiente table, identifique qué regla-norma de coherencia topológica se infringe.
 
-   ====================================================  =========
-   Example                                               Rule(s) 
-   ====================================================  =========
-   The boundary of a polygon is not closed.              \
-   Two lines cross each other without an intersection.   \
-   There is a gap between two polygons.                  \
-   Two polygons overlap.                                 \
-   ====================================================  =========
+    ================================================ =============
+    Ejemplo                                          Regla/Norma    
+    ================================================ =============
+    El límite de un polígono no está cerrado.         \
+    Dos líneas se cruzan sin intersección.            \
+    Hay un espacio entre dos polígonos contiguos.     \
+    Dos polígonos se superponen.                       \
+    ================================================ =============
 
-   Additional uses of topology will be discussed in the sections: :ref:`sec-data-entry`,  :ref:`sec-spatialsql`  and :ref:`sec-networks`. In this course, **you only need to understanding Topology in a conceptual level.**
+   Los usos adicionales de la topología se discutirán más adelante. En este curso, **solo necesita comprender la topología en un nivel conceptual.**
 
-.. attention:: 
-   **Question.**
-   The following statements are made about time. What is your opinion on them? Are they true or false?
-
-
-Temporal Dimension 
+Dimensión Temporal
 ^^^^^^^^^^^^^^^^^^
+   
+En muchas situaciones, no es suficiente describir los fenómenos geográficos solo en términos de espacio, sino también en términos de tiempo porque muchos fenómenos geográficos cambian con el tiempo. El cambio puede ser relativamente rápido (como las nubes en el cielo, los huracanes y el tráfico) o lento (como el movimiento de un glaciar).
 
-In many situations, it is not enough to describe geographic phenomena only in terms of space, but also in terms of time because such phenomena change over time. The change may be relatively fast (like the clouds in the sky, hurricanes, and traffic) or slow (like the movement of a glacier). 
+Para incluir el tiempo en la representación de datos espaciales, hablaremos de un |ltb| `Modelo de datos spacio-temporal <Spatial-temporal data model_>`_. Este modelo define diferentes tipos de cambio: *cambio de atributos*, *cambio de ubicación* (movimiento) y *cambio de forma* (crecimiento) o una combinaciones de estos tres.
 
-To including time in the representation of spatial data, we talk about the  |ltb| `Spatial-temporal data model`_. This model defines different types of change: *change in attributes*, *change in location* (movement) and *change in shape* (growth) or combinations of these three. 
+Tarea 16
+   A continuación, verá una lista de diferentes tipos de cambios y algunas combinaciones. ¿Puede escribir un ejemplo para cada tipo?
 
-Task 16 
-   Below you see a list of different types of change and some combinations. Can you write down an example for each type? 
-
-
-   =============================   ========
-   Type of Change                  Examples
-   =============================   ========
-   Attribute                           \
-   Attribute and Location              \
-   Attribute and Shape                 \
-   Location                            \
-   Location and Shape                  \
-   Attribute, Location and Shape       \
-   =============================   ========
-
+   ============================= ========
+   Tipo de cambio                Ejemplos
+   ============================= ========
+   Atributo                       \
+   Atributo y ubicación            \
+   Atributo y forma                \
+   Ubicación                      \
+   Ubicación y forma               \
+   Atributo, ubicación y forma    \
+   ============================= ========
 
 .. attention:: 
-   **Question.**
-   The following statements are made about time. What is your opinion on them? Are they true or false? 
+   **Pregunta.**
+   Las siguientes premisas se refieren diferentes tipos de tiempo en el contexto de fenómenos geográficos (continuo, discreto, tiempo válido, tiempo ramificado). ¿Cuál es tu opinión sobre ellas? ¿Son las premisas verdaderos o falsos?
 
-   + Although time is continuous in nature, in a GIS it is always represented in a discrete manner. 
-   + There are many examples of spatial phenomena for which valid time is simply unknown. 
-   + Branching time should be looked at into the future, as the past is already known and has only one branch. 
-   + Time granularity is comparable to the spatial concept of resolution. 
-
+    + Aunque el tiempo es de naturaleza continua, en un SIG siempre se representa de manera discreta.
+    + Hay muchos ejemplos de fenómenos espaciales para los que simplemente se desconoce el tiempo válido.
+    + El tiempor ramificado debe mirar hacia el futuro, ya que el pasado ya se conoce y tiene una sola rama.
+    + El concept de "granularidad temporal"  es comparable al concepto espacial de resolución.
 
 .. note:: 
-   **Reflection.**
+   **Reflexión.**
 
-   1. So far, you used vector representation of area features stored as Shapefiles. Are these shapefiles storing topology? In other words, do Shapefiles use a topological data model? 
+   1. En esta sección, hemos utilizado la representación vectorial para área geográficas almacenadas como Shapefiles. ¿Pueden los shapefiles almacenar topología? En otras palabras, ¿Usan los shapefiles un modelo de datos topológicos?
 
-   2. In this exercise, we have mainly focussed on 2-D data modelling examples. Yet, the real world is 3D. Do you know any examples in which a real 3-D data model would be needed? Is there also a 3-D topology? 
-
-   3. Which other compression techniques exist besides Quadtrees? 
+   2. En este ejercicio, nos hemos centrado principalmente en ejemplos de modelado de datos  en 2D. Sin embargo, el mundo real es 3D. ¿Conoce algún ejemplo en el que se necesitaría un modelo de datos en 3D? ¿Existirá también una topología 3D?
    
-   4. Besides rectangular cells, other shapes can be used. What are the advantages of using Hexagonal cells? 
+   3. Además de las celdas rectangulares, se las celdas pueden tener otras formas. ¿Cuáles son las ventajas de utilizar celdas hexagonales?
    
-   5. Make a comparison between raster and vector data models and list the advantages and disadvantages of each one. 
+   4. Haga una comparación entre modelos de datos raster y vectoriales y enumere las ventajas y desventajas de cada uno.
 
 .. sectionauthor:: Ellen-Wien Augustijn, André da Silva Mano, Manuel Garcia Alvarez & Amy Corbin
