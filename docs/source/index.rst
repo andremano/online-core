@@ -10,7 +10,7 @@ The Core Course: Exercises
    :maxdepth: 2
    :caption: Introduction
 
-   how-to
+   how-to-es
    intro-qgis
 
 .. toctree::
@@ -20,14 +20,12 @@ The Core Course: Exercises
 
    data-modeling-es
 
-
 .. toctree::
    :maxdepth: 2
    :caption: Appendices
 
    apendices/gis-formats
    apendices/shaded-terrain-models
-   apendices/sistan-image-dataset
 
 .. Indices and tables
 .. ==================
