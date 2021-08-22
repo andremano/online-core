@@ -19,35 +19,7 @@ The Core Course: Exercises
    :caption: GI Science
 
    data-modeling-es
-   data-modeling
-   data-entry
-   georeferencing
-   databases
-   vector-analysis
-   raster-analysis
-   data-quality
-   visualisation
 
-.. toctree::
-   :maxdepth: 2
-   :numbered:
-   :caption: Earth Observation
-
-   radiometric-ops
-   radiometric-cors
-   dic
-
-.. toctree::
-   :maxdepth: 2
-   :numbered:
-   :caption: Data Integration
-
-   systems-model
-   sdi
-   users
-   resampling
-   mono-vs-multi
-   change-detection
 
 .. toctree::
    :maxdepth: 2
