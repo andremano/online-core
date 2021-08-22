@@ -24,8 +24,6 @@ The Core Course: Exercises
    :maxdepth: 2
    :caption: Appendices
 
-   apendices/gis-formats
-   apendices/shaded-terrain-models
 
 .. Indices and tables
 .. ==================
