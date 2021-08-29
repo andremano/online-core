@@ -25,7 +25,7 @@ sys.path.append(os.path.abspath("./_ext"))
 
 project = 'Principles of GIS and Remote Sensing'
 copyright = '2020, University of Twente'
-author = 'The Course Team'
+author = 'ITC - Faculty of Geo-information Science and Earth Observation'
 
 # The full version, including alpha/beta/rc tags
 release = '4.0.0'

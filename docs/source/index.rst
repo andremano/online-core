@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-The Core Course: Exercises 
+Principles and Applications of GIS and RS - open educational resources
 ##########################
 
 .. toctree::
