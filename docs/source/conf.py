@@ -96,7 +96,8 @@ for file in link_files:
 #
 html_theme = "sphinx_rtd_theme"
 html_static_path = ['_static']
-html_logo = 'logo_itc.png'
+html_logo = '_static/logo_itc.png'
+logo_url = "https://www.itc.nl/",
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
