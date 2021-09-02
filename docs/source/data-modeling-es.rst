@@ -23,7 +23,7 @@ Los fenómenos geográficos se pueden dividir en |ltb| `objetos geográficos <Ge
 Objetos y Campos
 ^^^^^^^^^^^^^^^^^^
 
-Tarea 1
+Práctica 1
    Complete la siguiente tabla indicando si el fenómeno de la izquierda es un objeto o campo y si es discreto o continuo.
 
    +-----------------------+------------------+-------------------------+
@@ -47,7 +47,7 @@ Tarea 1
 Parámetros de Objetos Geográficos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Tarea 2
+Práctica 2
    ¿Qué parámetros de ubicación se pueden utilizar para describir objetos geográficos? No todos los parámetros que se pueden identficar son esenciales para todos los objetos.
    ¿Cuáles de los parámetros de localización son importantes para los siguientes objetos geográficos?
 
@@ -81,7 +81,7 @@ Autocorrelación
 ^^^^^^^^^^^^^^^
 Hay un concepto más que requiere una introducción; la  |ltb| `autocorrelación espacial <Spatial autocorrelation_>`_. La autocorrelación espacial se basa en la primera ley de geografía de Tobler.
 
-Tarea 3
+Práctica 3
    Defina con sus propias palabras qué es la autocorrelación espacial.
 
 Aunque todas las representaciones informáticas (representaciones en una computadora) almacenan datos como representaciones finitas, es importante que se dé cuenta de que algunos fenómenos muestran autocorrelación.
@@ -91,7 +91,7 @@ Aunque todas las representaciones informáticas (representaciones en una computa
 Representaciones informáticas
 -------------------------------
 
-Las tareas anteriores no utilizaron ningún software. Esto no debería haberte sorprendido porque el enfoque hasta ahora estaba en comprender los fenómenos geográficos y sus características. En esta sección, nos centraremos en mostrar cómo las computadoras representan los fenómenos geográficos. *Una buena comprensión de los fenómenos geográficos le ayudará a elegir una representación informática adecuada.*
+Las prácticas anteriores no utilizaron ningún software. Esto no debería haberte sorprendido porque el enfoque hasta ahora estaba en comprender los fenómenos geográficos y sus características. En esta sección, nos centraremos en mostrar cómo las computadoras representan los fenómenos geográficos. *Una buena comprensión de los fenómenos geográficos le ayudará a elegir una representación informática adecuada.*
 
 Ahora explorará diferentes tipos de representaciones informáticas para fenómenos geográficos disponibles en un SIG y cómo seleccionar la representación más adecuada para un fenómeno específico.
 
@@ -135,13 +135,13 @@ Un tipo de datos *entero* es un número que no contiene decimales. A menudo se u
 ===============   =============================================================
 
 
-Tarea 4
+Práctica 4
    ¿Qué tipo de datos usaría para representar un campo discreto cuando se desea usar ona teselación? ¿Y para cuanod se trata de un campo continuo?
 
-Tarea 5
+Práctica 5
    Los límites en las capas ráster son tanto artificiales como fijos (discretos). Esto tiene  sus ventajas y desventajas. ¿Puede dar algunos ejemplos de las ventajas y desventajas de los límites artificiales y fijos en capas ráster?
 
-Tarea 6
+Práctica 6
    Abra el proyecto  *'spatial_data_modelling'* en QGIS  y explore las propiedades de la teselación que representa la elevación del terreno (``elevation.tif``).
 
    ¿Cuántas filas/columnas tiene el data set elevación.tif? ¿Son los valores de tipo entero o de punto flotante? ¿Cuáles son los valores mínimos y máximos de elevation que contiene el data set?
@@ -161,7 +161,7 @@ También hay |ltb| `teselaciones irregulares <Irregular tesselation_>`_. En tese
    **Pregunta.**
    A menudo se afirma que las teselaciones irregulares son más adaptables en comparación con las teselaciones regulares. ¿Qué se quiere decir exactamente con esto?
    
-Tarea 7
+Práctica 7
    Aunque existen múltiples ejemplos de teselaciones irregulares, solo tienes que estudiar un ejemplo: “el Quadtree”. Si aún no está familiarizado con Quadtrees, consulte `Quadtree <https://en.wikipedia.org/wiki/Quadtree>`_ . La mejor manera de aprender cómo funcionan los Quadtrees es construir uno manualmente.
 
    Construya el Quadtree para la capa ráster que se muestra a continuación.
@@ -188,7 +188,7 @@ Epezaremos con las |ltb| `redes irregulares trianguladas <TINs_>`_. (TINs) porqu
    ¿Qué características tienen en común los TIN y los teselados?
 
 
-Tarea 9
+Práctica 9
    Usando los puntos dados en siguente imagen, cree  un TIN manualmente.
 
    .. image:: _static/img/make-tin.png 
@@ -196,10 +196,10 @@ Tarea 9
 
 .. attention:: 
    **Pregunta.**
-   Puede que se sorprenda, pero no todas las triangulaciones son igualmente buenas. La triangulación estándar en un TIN es una triangulación de Delaunay. ¿Ha usado una triangulación Delaunay en la tarea anterior?
+   Puede que se sorprenda, pero no todas las triangulaciones son igualmente buenas. La triangulación estándar en un TIN es una triangulación de Delaunay. ¿Ha usado una triangulación Delaunay en la práctica anterior?
 
-Tarea 10
-   En su proyecto QGIS, hay una capa con puntos. Genere una triangulación de Delaunay y compare el resultado con la teselación que hizo en la tarea anterior.  
+Práctica 10
+   En su proyecto QGIS, hay una capa con puntos. Genere una triangulación de Delaunay y compare el resultado con la teselación que hizo en la práctica anterior.  
 
 .. figure:: _static/img/create-tin.png
    :alt: Create triangulation QGIS
@@ -210,7 +210,7 @@ Tarea 10
 También se puede utilizar una triangulación para generar una superficie teselada continua mediante interpolación. En cuyo caso, a cada celda en la teselacione se asignará un valor aproximad que depende de la distancia de una celda a los puntos de anclaje en TIM.
 
 
-Tarea 11
+Práctica 11
     Cree una teselación con la herramienta **Interpolación TIN**; use como datos de entrada los puntos de anclaje que tiene en su proyecto QGIS. Luego, use la herramienta **Identificar objetos espaciales** para inspeccionar los valores de las celdas.
 
 .. figure:: _static/img/create-tessellation.png
@@ -233,7 +233,7 @@ Tarea 11
    ¿Cuáles son exactamente las ventajas de un TIN en comparación con una teselación?
 
 
-Tarea 12
+Práctica 12
    Entre los datos, encontrará una tabla ``Cities2.csv``. Intente usar esta tabla para crear una capa de puntos en QGIS. Inicie un nuevo proyecto QGIS y agregue la capa a QGIS usando la opción :guilabel:`Texto delimitado`.
 
 .. figure:: _static/img/layer-from-csv.png
@@ -242,7 +242,7 @@ Tarea 12
       
    Pasos para crear una capa de puntos usando un archivo CSV en QGIS
 
-De la tarea anterior, debe tenerse claro que **puntos** son las geometrías más simples. Puntos tienen coordenadas Y y X que los anclan al marco espacial en el que está trabajando.
+De la práctica anterior, debe tenerse claro que **puntos** son las geometrías más simples. Puntos tienen coordenadas Y y X que los anclan al marco espacial en el que está trabajando.
 
 Otra forma de representar un fenómeno geográfico en el modelo de datos vectoriales es utilizando  |ltb| `Líneas <Line representation_>`_. Una **línea** no es más que dos o más puntos conectados.
 
@@ -256,7 +256,7 @@ El modelo de límites explica cómo se representan las áreas y almacena el lím
 
 El modelo topológico se discute en la siguiente sección sobre :ref:`sec-topology`. 
 
-Tarea 13
+Práctica 13
    Lea la sección |ltb| `Area representation`_ y describa con sus propias palabras los problemas que pueden surgir al utilizar el modelo de límites sin topología.
 
 .. _sec-topology:
@@ -266,7 +266,7 @@ Topología
 
 El tercer tema de este ejercicio es |ltb| `Topología <Topology_>`_. Primero deberrá comprender qué es la topología antes de aprender diferentes formas de usarla. Las propiedades topológicas son propiedades geométricas y relaciones espaciales que no se ven afectadas por el cambio continuo de forma y tamaño de una capa de datos vectoriales (puntos, líneas o polígonos).
 
-Tarea 14
+Práctica 14
    Imagina que estás mirando un mapa (toma cualquier mapa que te guste). Liste cinco ejemplos visibles de topología espacial en el mapa, y cinco ejemplos de propiedades del mapa que no son topológicas (use la tabla a continuación).
 
    ===============  ===============  ==================
@@ -297,7 +297,7 @@ La topología también se puede utilizar para garantizar la coherencia de las ge
 
 
 
-Tarea 15
+Práctica 15
    Para cada ejemplo en la siguiente table, identifique qué regla-norma de coherencia topológica se infringe.
 
     ================================================ =============
@@ -318,7 +318,7 @@ En muchas situaciones, no es suficiente describir los fenómenos geográficos so
 
 Para incluir el tiempo en la representación de datos espaciales, hablaremos de un |ltb| `Modelo de datos spacio-temporal <Spatial-temporal data model_>`_. Este modelo define diferentes tipos de cambio: *cambio de atributos*, *cambio de ubicación* (movimiento) y *cambio de forma* (crecimiento) o una combinaciones de estos tres.
 
-Tarea 16
+Práctica 16
    A continuación, verá una lista de diferentes tipos de cambios y algunas combinaciones. ¿Puede escribir un ejemplo para cada tipo?
 
    ============================= ========
