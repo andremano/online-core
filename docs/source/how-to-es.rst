@@ -45,6 +45,6 @@ A lo largo de los ejercicios, usamos algunas convenciones para resaltar el conte
 
 .. attention:: 
    **Pregunta.**
-   Esto presentará preguntas que tendrá que responder durante los ejercicios. Anota tu respuesta y si tienes dudas pregunta durante las sesiones en el aula virtual.
+   Esto presentará preguntas que tendrá que responder durante los ejercicios. Anota las respuesta y si tienes dudas pregunta durante las sesiones en el aula virtual. **Incluir unicamente respuestas en el reporte.**
 
 .. sectionauthor:: Manuel G. Garcia
