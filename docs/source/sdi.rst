@@ -32,7 +32,7 @@ For a quick overview on the PDOK geoportal, you may want to watch the `PDOK vide
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of `QGIS (A Coruna 3.10) <https://qgis.org/en/site/forusers/download.html>`_. 
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_.
 
    This exercise does not require any data files. However, you need a web browser. We recommend **Google Chrome** because you will need to translate some webpages to English.
 

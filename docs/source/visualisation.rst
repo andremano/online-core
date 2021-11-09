@@ -89,7 +89,7 @@ In this exercise, you have to focus on the production of a cartographically well
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of `QGIS (A Coruna 3.10) <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `visualization.zip <visualisation_>`_ which you can download from CANVAS.
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `visualization.zip <visualisation_>`_ which you can download from CANVAS.
 
 Reference Material
 ^^^^^^^^^^^^^^^^^^

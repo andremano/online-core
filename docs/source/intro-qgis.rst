@@ -18,7 +18,7 @@ This exercise will introduce you to QGIS, and at the same time, you will discove
 The QGIS Interface
 ------------------
 
-If you are entirely new to QGIS, watch the video tutorial on `getting started with QGIS <https://vimeo.com/showcase/5716094/video/313813125>`_. Notice that in this course, you have to install `QGIS (A Coruna 3.10) <https://qgis.org/en/site/forusers/download.html>`_. The tutorial uses a different version, but the installation steps are the same.
+If you are entirely new to QGIS, watch the video tutorial on `getting started with QGIS <https://vimeo.com/showcase/5716094/video/313813125>`_. Notice that in this course, you have to install LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_. The tutorial uses a different version, but the installation steps are the same.
 
 
 .. raw:: html

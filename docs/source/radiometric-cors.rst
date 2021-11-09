@@ -20,7 +20,7 @@ Atmospheric corrections are needed to “clean” the images from disturbances p
 
 .. important::
    **Resources.**
-   You will require the latest LTR version of `QGIS (A Coruna 3.10) <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `Data_Atmospheric_Corrections.zip <data_atmospheric_corr_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside: 
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `Data_Atmospheric_Corrections.zip <data_atmospheric_corr_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside:
    
    + ``etm99.img`` – Scene from Landsat Enhanced Thematic Mapper, bands 1 to 4. Wadden islands, 1999.
    + ``pan.img``  – Scene from SPOT, panchromatic band.

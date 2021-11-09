@@ -7,7 +7,7 @@ In this exercise, we use a **Sentinel-2** satellite image covering Enschede and 
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of `QGIS (A Coruna 3.10) <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `digital_image_classification.zip <data_digital_image_classfication_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside: 
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `digital_image_classification.zip <data_digital_image_classfication_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside:
   
    + ``s2_25_sept_2016.tif``, a Sentinel-2 satellite image of Enschede.
    + ``Training_areas.shp``, containing the sites visited during a fieldwork.

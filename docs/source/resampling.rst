@@ -9,7 +9,7 @@ The image you will be working on is a subset taken from band 1 of Landsat 5 sens
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of `QGIS (A Coruna 3.10) <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `resampling.zip <data_resampling_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside: 
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `resampling.zip <data_resampling_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside:
   
    + ``l5_20100627_band1.tif`` -  an image subset from band 1 of Landsat 5 and spatial resolution of :math:`30 \ m`.
    + ``grid.shp`` - a vector dataset representing a grid for the original pixel size of the Landsat 5 image. 

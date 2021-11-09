@@ -148,7 +148,7 @@ Having the necessary datasets is the starting point to be able to extract releva
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of `QGIS (A Coruna 3.10) <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset  `database_queries.zip <database_queries_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside:
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset  `database_queries.zip <database_queries_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside:
 
    + ``Database_queries.qgs`` – a QGIS project preloaded with the dataset described below;
    + ``country_Data`` – a table with additional information on the countries of the world;

@@ -100,7 +100,7 @@ Here, you will explore different types of computer representations for geographi
 
 .. important:: 
    **Resources**
-   You will require the latest LTR version of `QGIS (A Coruna 3.10) <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset  `data_modeling.zip <data_modeling_>`_  which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside: 
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset  `data_modeling.zip <data_modeling_>`_  which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside:
   
    + ``Cities.csv`` – a comma-separated values file with city names; 
 

@@ -29,7 +29,7 @@ Automatic Classification
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of `QGIS (A Coruna 3.10) <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `raster-analysis.zip <raster_analysis_>`_ which you can download from CANVAS.  For this section, you will need the following files: 
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `raster-analysis.zip <raster_analysis_>`_ which you can download from CANVAS.  For this section, you will need the following files:
 
     + ``classification.qgs`` – a QGIS project preloaded with the datasets described below;
 
@@ -130,7 +130,7 @@ During the vector exercise, you were already introduced to the concept of overla
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of `QGIS (A Coruna 3.10) <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `raster-analysis.zip <raster_analysis_>`_ which you can download from CANVAS.  For this section, you will need the following files: 
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `raster-analysis.zip <raster_analysis_>`_ which you can download from CANVAS.  For this section, you will need the following files:
 
    + ``overlay.qgs`` – a QGIS project preloaded with the datasets described below;
       
@@ -250,7 +250,7 @@ There are several questions related to |ltb| `Raster Measurements`_ that can be 
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of `QGIS (A Coruna 3.10) <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `raster-analysis.zip <raster_analysis_>`_ which you can download from CANVAS.  For this section, you will need the following files: 
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `raster-analysis.zip <raster_analysis_>`_ which you can download from CANVAS.  For this section, you will need the following files:
 
    + ``distance.qgs`` – a QGIS project preloaded with the datasets described below;
 

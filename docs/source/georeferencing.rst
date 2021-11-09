@@ -35,7 +35,7 @@ In mapping, a |ltb| `Coordinate system`_ is used to uniquely determine the posit
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of `QGIS (A Coruna 3.10) <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `georeferencing.zip <data_georeferencing_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside: 
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `georeferencing.zip <data_georeferencing_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside:
 
    + ``DEM10.tif`` (and auxiliary files) – a digital elevation model in raster format;
    + ``Topographical_map_dominica.tif`` – a (ungeoreferenced) raster map;
