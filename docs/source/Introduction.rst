@@ -86,7 +86,7 @@ Citation
 --------
 
 You can cite this repository using this reference:
-Mano, Andre (ed); Bakx, Wan; Garcia, Manuel; & Knippers, Richard. (2021, August 17). andremano/online-core: Principles and Applications of GIS and RS. Zenodo. https://doi.org/10.5281/zenodo.5213896
+Mano, Andre (ed); Augustjin, Ellen-Wien; Bakx, Wan; Garcia, Manuel; & Knippers, Richard. (2021, August 17). andremano/online-core: Principles and Applications of GIS and RS. Zenodo. https://doi.org/10.5281/zenodo.5213896
 
 Inquires
 --------
