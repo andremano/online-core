@@ -11,7 +11,7 @@ Principles and Applications of GIS and RS - open educational resource
    :numbered:
    :caption: Introduction
 
-   how-to_original_core_introductionrst
+   introduction
 
 .. toctree::
    :maxdepth: 2
