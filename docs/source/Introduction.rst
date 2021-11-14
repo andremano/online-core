@@ -99,4 +99,4 @@ References
 
 Andre Mano, Ellen-Wien Augustjin (2021): Teaching Geographic Information Science concepts with QGIS and the Living Textbook. Towards a sustainable and inclusive Distance Education. FOSS4G Asia. Kathmandu, Nepal.
 
-.. sectionauthor:: André Mano and Manuel G. Garcia
+.. sectionauthor:: Andre Mano and Manuel G. Garcia
