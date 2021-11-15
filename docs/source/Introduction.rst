@@ -16,7 +16,9 @@ Since we assume the use of QGIS, consider keeping at hand the following resource
 
 +	The `QGIS manual <https://docs.qgis.org/3.22/en/docs/user_manual/index.html>`_ can help you to find answers on how to use the tools and interfaces, and it is the first source you should consult when you have a question on how to use QGIS.
 
+
 +	If you have more advanced questions, such as how to implement a rather specific procedure or data analysis related to GIS and QGIS, then `GIS Stack exchange <https://gis.stackexchange.com/>`_ might help you with that.
+
 
 +	You could also subscribe to the `QGIS-Users mailing list <https://lists.osgeo.org/mailman/listinfo/qgis-user>`_ . The mailing list contains an extensive archive of Q&As from the QGIS user community. You can also post your questions, and someone from the community might answer.
 
