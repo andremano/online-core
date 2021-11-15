@@ -94,7 +94,7 @@ for file in link_files:
 # a list of builtin themes.
 #
 html_theme = "sphinx_rtd_theme"
-html_static_path = ['_static']
+html_static_path = []
 html_logo = '_static/logo_itc.png'
 logo_url = "https://www.itc.nl/",
 html_theme_options = {
