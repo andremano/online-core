@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Principles and Applications of GIS and RS - open educational resource
-##########################
+#####################################################################
 
 .. toctree::
    :maxdepth: 2
