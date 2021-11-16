@@ -9,16 +9,16 @@ The exercises assume the free and open-source software `QGIS <https://qgis.org/>
 How to use these exercises
 --------------------------
 
-On the left pane, there is a list of topics; each of those topics contains (primarily) software-based exercises designed to demonstrate related concepts. Although the arrangement of the topics reflects the order, we recommend the exercises be taken; they do not build on each other and therefore can be taken in any order.
-Along with the exercise description, you may be suggested to take readings explaining the exercise's concept. The |ltb| icon signals a link to the Living Textbook. The Living Textbook consists of a conceptual map built on top of a wiki that allows the user to read about a certain concept and explore how that concept relates to other concepts.
+On the left pane, there is a list of topics; each of those topics contains (primarily) software-based exercises designed to demonstrate related concepts. Although the arrangement of the topics reflects the order we recommend the exercises be taken; they do not build on each other and therefore can be taken in any order.
+Along with the exercise description, you may be suggested to take readings explaining a concept. The |ltb| icon signals a link to the `Living Textbook <https://www.itc.nl/about-itc/organization/resources-facilities/living-textbook/>`_. The Living Textbook consists of a conceptual map built on top of a wiki that allows the user to read about a certain concept and explore how that concept relates to other concepts.
 The exercises might also contain questions. In a supervised environment, we use those questions to stimulate the class and assess how the learning process is going. We do not provide answer sheets -  you will have to verify your answers independently if you choose to use this repository without support.
 Since we assume the use of QGIS, consider keeping at hand the following resources:
 
 +	The `QGIS manual <https://docs.qgis.org/3.22/en/docs/user_manual/index.html>`_ can help you to find answers on how to use the tools and interfaces, and it is the first source you should consult when you have a question on how to use QGIS.
-
+|
 
 +	If you have more advanced questions, such as how to implement a rather specific procedure or data analysis related to GIS and QGIS, then `GIS Stack exchange <https://gis.stackexchange.com/>`_ might help you with that.
-
+|
 
 +	You could also subscribe to the `QGIS-Users mailing list <https://lists.osgeo.org/mailman/listinfo/qgis-user>`_ . The mailing list contains an extensive archive of Q&As from the QGIS user community. You can also post your questions, and someone from the community might answer.
 
@@ -84,6 +84,7 @@ License
 
 .. raw:: html
    :file: _static/cc_license.html
+
 
 Citation
 --------
