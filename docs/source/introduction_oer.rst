@@ -2,8 +2,8 @@ About this repository
 ======================
 
 Welcome to the **Principles and Applications of Geographic Information Systems and Earth Observation open courseware**. These exercises are developed and maintained by the `Faculty of Geo-Information Science and Earth Observation (ITC) <https://www.itc.nl/>`_, University of Twente, The Netherlands.
-All the exercises were originally developed for the `Master of Science in Geo-Information Science and Earth Observation <https://www.itc.nl/education/studyfinder/geo-information-science-earth-observation//>`_, and are still used in our courses. They are made available to the geo community as a statement of ITC commitment towards education and capacity development. Anyone can use them provided the license terms are respected (see the License section).
-The exercises assume the free and open-source software `QGIS <https://qgis.org/>`_ but are not meant to be a software training. Instead, the activities are designed to teach key concepts of Geographic Information Science and Earth Observation. You are free to use them in your own classes (provided you provide the attribution credits) or on your own as an independent learner.
+All the exercises were originally developed for the `Master of Science in Geo-Information Science and Earth Observation <https://www.itc.nl/education/studyfinder/geo-information-science-earth-observation//>`_, and are still used in our courses. They are made available to the geo community as a statement of ITC's commitment towards education and capacity development. Anyone can use them provided the license terms are respected (see the License section).
+The exercises assume the use of the free and open-source software `QGIS <https://qgis.org/>`_ but are not meant to be a software training. Instead, the activities are designed to teach key concepts of Geographic Information Science and Earth Observation. You are free to use them in your own classes (provided you include the attribution credits) or on your own as an independent learner.
 
 
 How to use these exercises
