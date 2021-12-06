@@ -14,7 +14,7 @@
 .. _raster_analysis:        https://github.com/andremano/online-core/raw/main/docs/source/_static/datasets/raster_analysis.zip
 .. _vector_analysis:        https://github.com/andremano/online-core/raw/main/docs/source/_static/datasets/vector_analysis.zip
 .. _visualisation:          https://github.com/andremano/online-core/raw/main/docs/source/_static/datasets/visualization.zip
-.. _network_analysis:       https://github.com/andremano/online-core/blob/main/docs/source/_static/datasets/network_analysis.zip
+.. _network_analysis:       https://github.com/andremano/online-core/raw/main/docs/source/_static/datasets/network_analysis.zip
 
 
 
