@@ -3,6 +3,9 @@
 .. |ltb| image:: _static/img/ltb.png
    :width: 1.3em
 
+.. |flowtrace| image:: _static/img/flow-trace-icon.png
+   :width: 1.3em
+
 .. |previewPointer| image:: _static/img/class-preview-pointer.png
    :width: 1.5em
 

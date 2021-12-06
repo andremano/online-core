@@ -9,7 +9,7 @@ The main goal of this exercise is to provide you with the first-hand experience 
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `data_quality.zip <data_quality_>`_ which you can download from CANVAS.  For this section, you will need the following files:
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `data_quality.zip <data_quality_>`_.  For this section, you will need the following files:
 
     + ``accuracy.qgs`` – a QGIS project preloaded with the datasets described below;
       
@@ -93,7 +93,7 @@ Another possible problem with your data is **bias**. Biased data is systematical
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `data_quality.zip <data_quality_>`_ which you can download from CANVAS.  For this section, you will need the following files:
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `data_quality.zip <data_quality_>`_.  For this section, you will need the following files:
 
    + ``bias.qgs`` – a QGIS project preloaded with the datasets described below;
     
@@ -128,7 +128,7 @@ A common source of errors occurs during the spatial acquisition phase. Errors or
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `data_quality.zip <data_quality_>`_ which you can download from CANVAS.  For this section, you will need the following files:
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `data_quality.zip <data_quality_>`_.  For this section, you will need the following files:
 
     + ``acquisition_errors.qgs`` – a QGIS project preloaded with the datasets described below;
         + ``porto_buildings.gpgk``– the footprint of urban buildings from Porto (Portugal);
@@ -216,7 +216,7 @@ When |ltb| `combining spatial data from multiple sources <combining data from mu
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `data_quality.zip <data_quality_>`_ which you can download from CANVAS.  For this section, you will need the following files:
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `data_quality.zip <data_quality_>`_.  For this section, you will need the following files:
 
     + ``error_propagation.qgs`` – a QGIS project preloaded with the datasets described below;
 
@@ -333,7 +333,7 @@ It is essential to organise your input and output data in such a way that you ca
 
 .. important:: 
    **Resources.**
-   You will require the dataset  `data_quality.zip <data_quality_>`_ which you can download from CANVAS. 
+   You will require the dataset  `data_quality.zip <data_quality_>`_.
 
 
 Task 12 

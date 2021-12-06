@@ -8,7 +8,7 @@ In this exercise, we demonstrate the advantage of using multi-temporal data in i
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `mono_bi_temporal_classification.zip <data-mono-multi_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following directories and files:
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `mono_bi_temporal_classification.zip <data-mono-multi_>`_.  When you unzip the dataset, you will find the following directories and files:
 
    + **Landsat** -  Images from the Lansat-TM, from 2010-06-23:
 

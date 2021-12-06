@@ -87,6 +87,7 @@
 .. _Network Allocation:             https://ltb.itc.utwente.nl/page/481/concept/78719
 .. _Network Partitioning:           https://ltb.itc.utwente.nl/page/481/concept/78721
 .. _Trace analysis:                 https://ltb.itc.utwente.nl/page/481/concept/78842
+.. _Cost function:                  https://ltb.itc.utwente.nl/page/481/concept/78613
 
 .. _Reclassification:               https://ltb.itc.utwente.nl/page/481/concept/78748
 .. _Automatic reclassification:     https://ltb.itc.utwente.nl/page/481/concept/78562

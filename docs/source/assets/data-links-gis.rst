@@ -1,6 +1,6 @@
-.. A list of URLs to the datasets in CANVAS. By default labels will be rendered using the text on the left.
+.. A list of URLs to the datasets. By default labels will be rendered using the text on the left.
 
-.. Canvas Course:  GI Science 2020
+.. Canvas Course:  GI Science 2020 (legacy information)
    Course Id: 6539
 
 
@@ -14,6 +14,7 @@
 .. _raster_analysis:        https://github.com/andremano/online-core/raw/main/docs/source/_static/datasets/raster_analysis.zip
 .. _vector_analysis:        https://github.com/andremano/online-core/raw/main/docs/source/_static/datasets/vector_analysis.zip
 .. _visualisation:          https://github.com/andremano/online-core/raw/main/docs/source/_static/datasets/visualization.zip
+.. _network_analysis:       https://github.com/andremano/online-core/raw/main/docs/source/_static/datasets/visualization.zip
 
 
 

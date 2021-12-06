@@ -22,6 +22,7 @@ Principles and Applications of GIS and RS - open educational resource
    georeferencing
    databases
    vector-analysis
+   network-analysis
    raster-analysis
    data-quality
    visualisation

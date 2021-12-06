@@ -35,7 +35,7 @@ In mapping, a |ltb| `Coordinate system`_ is used to uniquely determine the posit
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `georeferencing.zip <data_georeferencing_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside:
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `georeferencing.zip <data_georeferencing_>`_.  When you unzip the dataset, you will find the following files inside:
 
    + ``DEM10.tif`` (and auxiliary files) – a digital elevation model in raster format;
    + ``Topographical_map_dominica.tif`` – a (ungeoreferenced) raster map;
@@ -107,7 +107,7 @@ No matter which map projection you choose, it always comes with certain distorti
 
 
 Task 5
-   Load the vector and raster datasets you downloaded from Canvas into a new QGIS project and answer the following questions:
+   Load the vector and raster datasets you downloaded into a new QGIS project and answer the following questions:
    
    + Are there any datasets that use a map projection? 
    + What geographic coordinate system is used by the projected datasets? 

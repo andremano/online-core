@@ -43,7 +43,7 @@ The lowest parts of the basin are covered by wetlands, known as *Hamoun wetlands
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `change_detection.zip <data_change_detection_>`_ which you can download from CANVAS.  When you unzip the dataset, you  will find several folders containing the following files:
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `change_detection.zip <data_change_detection_>`.  When you unzip the dataset, you  will find several folders containing the following files:
   
       
       +  ``vegetation.img`` - time series for the presence of vegetation in the Hamoun wetlands.

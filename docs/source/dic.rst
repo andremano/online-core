@@ -7,7 +7,7 @@ In this exercise, we use a **Sentinel-2** satellite image covering Enschede and 
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `digital_image_classification.zip <data_digital_image_classfication_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside:
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `digital_image_classification.zip <data_digital_image_classfication_>`_.  When you unzip the dataset, you will find the following files inside:
   
    + ``s2_25_sept_2016.tif``, a Sentinel-2 satellite image of Enschede.
    + ``Training_areas.shp``, containing the sites visited during a fieldwork.
@@ -278,7 +278,7 @@ Accuracy assessment
 
 .. important:: 
    **Resources.**
-   In this section, you will will require the dataset `reference_data.zip <reference_data_>`_, which you can download from CANVAS.  This dataset contains the following file: 
+   In this section, you will will require the dataset `reference_data.zip <reference_data_>`_.  This dataset contains the following file:
   
    + ``reference_data.shp``, dataset containing the locations and types of land cover for the accuracy assessment.
 
@@ -319,11 +319,6 @@ Task 17
 .. attention:: 
    **Question.**
    What determines if the accuracy of the digital image classification is acceptable or not?
-
-.. important:: 
-   **Assignment Submission**
-
-   Read the instructions of the `Digital Image Classification Assignment <https://canvas.utwente.nl/courses/6641/assignments/43605>`_, and submit your results before **7th October 23:59 (GMT+2)**.
 
 
 .. sectionauthor:: Monika Kuffer, Andre Mano & Manuel Garcia Alvarez

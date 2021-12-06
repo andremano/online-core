@@ -10,7 +10,7 @@ Image Display
 
 .. important::
    **Resources.**
-   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `data_histogram_operations.zip <data_histogram_ops_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside:
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `data_histogram_operations.zip <data_histogram_ops_>`_.  When you unzip the dataset, you will find the following files inside:
    
    + ``SPOT270611.img`` – SPOT 5 image with 4 spectral bands.
    + ``tm24aug99.img``  – TM image of the 24th of august 1999.
@@ -275,7 +275,7 @@ Image Enhancement by Filter Operations
 .. important::
    **Resources.**
 
-   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `Data_Filter_Operations <data_filter_ops_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside:
+   You will require the latest LTR version of LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `Data_Filter_Operations <data_filter_ops_>`_.  When you unzip the dataset, you will find the following files inside:
    
    + ``tm1999_b4.tif`` – A scene from band 4 of the Landsat TM. Enschede in 1999.
    + ``tm1999_xs_ml_classification.tif`` – Classification of the types of land cover in Enschede. From Landsat TM 1999.

@@ -5,7 +5,7 @@ This exercise will introduce you to QGIS, and at the same time, you will discove
 
 .. important:: 
    **Resources.**
-   You will require the dataset `introduction_data.zip <introduction_data_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside: 
+   You will require the dataset `introduction_data.zip <introduction_data_>`_.  When you unzip the dataset, you will find the following files inside:
 
    + ``GI_Science_2020.qgs`` – a QGIS project file;
    + ``Introduction_to_QGIS.qgs`` – a QGIS project file;

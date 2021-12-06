@@ -43,7 +43,7 @@ Although spatial data can be acquired from third-party sources like government a
 
 .. important:: 
    **Resources.**
-   You will require the latest LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `data_entry.zip <data_entry_>`_ which you can download from CANVAS.  When you unzip the dataset, you will find the following files inside:
+   You will require the latest LTR version of `QGIS <https://qgis.org/en/site/forusers/download.html>`_, plus the dataset `data_entry.zip <data_entry_>`_.  When you unzip the dataset, you will find the following files inside:
 
    + ``data_entry.qgs`` – a QGIS project file; 
    + ``checking_errors.qgs`` – a QGIS project file; 
