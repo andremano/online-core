@@ -99,6 +99,5 @@ If you want to have this or other courses taught at your organization under the 
 References
 ----------
 
-Andre Mano, Ellen-Wien Augustjin (2021): Teaching Geographic Information Science concepts with QGIS and the Living Textbook. Towards a sustainable and inclusive Distance Education. FOSS4G Asia. Kathmandu, Nepal.
-
+Da Silva Mano, A. , & Augustijn, P. W. M. (2023). Teaching Geographic Information Science concepts with QGIS and the Living Textbook: Towards a sustainable and inclusive distance education. In M. Minghini, M. Ciolli, & G. Neziri (Eds.), The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences: Free and Open Source Software for Geospatial (FOSS4G) 2023 – Academic Track (4/W7-2023 ed., Vol. 48, pp. 25-31). (International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences). Copernicus. `https://doi.org/10.5194/isprs-archives-XLVIII-4-W7-2023-25-2023 <https://doi.org/10.5194/isprs-archives-XLVIII-4-W7-2023-25-2023`_
 .. sectionauthor:: Andre Mano and Manuel G. Garcia
