@@ -27,7 +27,7 @@ copyright = '2020, University of Twente'
 author = 'ITC - Faculty of Geo-information Science and Earth Observation'
 
 # The full version, including alpha/beta/rc tags
-release = '4.0.0'
+release = '4.3.0'
 show_authors = True
 html_show_sourcelink = False
 
@@ -40,7 +40,7 @@ master_doc = 'index'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "sphinx_rtd_theme",
+   # "sphinx_rtd_theme",
     "sphinx_copybutton",
     "helloworld",
     "todo"
